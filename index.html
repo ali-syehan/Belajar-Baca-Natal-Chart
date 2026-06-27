@@ -1,0 +1,2110 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Belajar Membaca Natal Chart — Klasik & Modern</title>
+<style>
+:root{
+  --bg:#f4f7fb;--paper:#ffffff;--card:#ffffff;--ink:#1f2937;--muted:#64748b;--line:#e2e8f0;
+  --accent:#7c3aed;--accent2:#2563eb;--soft:#eef2ff;--good:#16a34a;--warn:#f97316;--bad:#dc2626;
+  --navy:#0f172a;--slate:#334155;--shadow:0 14px 34px rgba(15,23,42,.10);--radius:18px;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(135deg,#eff6ff 0%,#f8fafc 45%,#e2e8f0 100%);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.56}h1,h2,h3,h4{margin:0 0 10px;line-height:1.18;color:var(--navy)}h1{font-size:clamp(1.6rem,2.7vw,3rem)}h2{font-size:1.45rem}h3{font-size:1.1rem}p{margin:0 0 12px}.muted{color:var(--muted)}.small{font-size:.88rem}.tiny{font-size:.78rem}.hidden{display:none!important}
+.app-header{position:sticky;top:0;z-index:50;display:flex;gap:16px;align-items:center;justify-content:space-between;padding:14px 18px;background:rgba(15,23,42,.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(148,163,184,.24);color:#f8fafc}.app-header .muted{color:#cbd5e1}.brand{display:flex;gap:10px;align-items:center;font-weight:900;letter-spacing:.2px}.brand-mark{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,var(--accent),var(--accent2));color:#fff;box-shadow:var(--shadow)}.nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}.nav button,.btn{border:1px solid var(--line);background:#fff;color:var(--slate);border-radius:999px;padding:9px 13px;cursor:pointer;font-weight:800;transition:.18s ease;white-space:nowrap}.nav button{background:rgba(255,255,255,.08);border-color:rgba(148,163,184,.28);color:#e2e8f0}.nav button:hover,.btn:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(15,23,42,.12)}.nav button.active,.btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}.btn.secondary{background:var(--soft);color:#3730a3;border-color:#c7d2fe}.btn.danger{background:#fef2f2;color:var(--bad);border-color:#fecaca}.btn.warn{background:#fff7ed;color:#9a3412;border-color:#fed7aa}.btn.full{width:100%}.btn.link{border-radius:12px;background:#eef2ff;color:#4338ca;border-color:#c7d2fe;text-align:left;white-space:normal}.btn.ghost{background:transparent}.btn.success{background:#f0fdf4;color:#166534;border-color:#bbf7d0}
+main{max-width:1480px;margin:0 auto;padding:20px}.page{display:none}.page.active{display:block}.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:18px}.hero-card,.card{background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}.hero-card{padding:24px;border-radius:28px;background:linear-gradient(145deg,#ffffff,#f1f5f9)}.card{margin:0 0 14px}.card-head{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fff,#f1f5f9)}.card-title{display:flex;flex-direction:column;gap:2px}.card-body{padding:15px 16px}.card.collapsed .card-body{display:none}.toggle{font-size:.82rem;padding:7px 10px}.grid{display:grid;gap:12px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.grid.four{grid-template-columns:repeat(4,minmax(0,1fr))}.pill-row{display:flex;gap:8px;flex-wrap:wrap}.pill{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 10px;font-size:.83rem;font-weight:800;color:var(--slate)}.pill.good{color:var(--good);border-color:#bbf7d0;background:#f0fdf4}.pill.warn{color:var(--warn);border-color:#fed7aa;background:#fff7ed}.pill.bad{color:var(--bad);border-color:#fecaca;background:#fef2f2}.pill.blue{color:var(--accent2);border-color:#bfdbfe;background:#eff6ff}.tag{display:inline-block;border-radius:999px;padding:2px 8px;font-weight:800;font-size:.73rem;background:#eef2ff;color:#3730a3}.tag.modern{background:#fdf2f8;color:#9d174d}.tag.adv{background:#fff7ed;color:#9a3412}.tag.classic{background:#ecfdf5;color:#166534}
+label{display:block;font-size:.8rem;font-weight:900;color:var(--slate);margin:0 0 5px}input,select,textarea{width:100%;border:1px solid #cbd5e1;background:#fff;border-radius:12px;padding:10px 11px;color:var(--ink);font:inherit}textarea{min-height:110px;resize:vertical}input:focus,select:focus,textarea:focus{outline:2px solid rgba(124,58,237,.18);border-color:var(--accent)}.form-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.form-grid .wide{grid-column:span 2}.form-grid .full{grid-column:1/-1}.field-note{font-size:.78rem;color:var(--muted);margin-top:5px}.mini-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}.mini-tabs button{border:1px solid var(--line);background:var(--soft);border-radius:12px;padding:8px 10px;font-weight:900;cursor:pointer;color:#3730a3}.mini-tabs button.active{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}.manual-tab{display:none}.manual-tab.active{display:block}
+.reader-layout{display:grid;grid-template-columns:minmax(0,7fr) minmax(290px,3fr);gap:16px;align-items:start}.reader-right{position:sticky;top:78px;max-height:calc(100vh - 92px);overflow:auto;padding-right:2px}.guide-panel{background:rgba(255,255,255,.98);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}.guide-head{padding:14px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fff,#f1f5f9)}.guide-list{padding:12px}.guide-card{border:1px solid var(--line);border-radius:15px;margin:0 0 10px;background:#fff;overflow:hidden}.guide-title{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:11px 12px;background:#f8fafc;cursor:pointer;font-weight:900}.guide-content{display:none;padding:12px}.guide-card.open .guide-content{display:block}.guide-content h4{margin-top:14px}.guide-content ol,.guide-content ul{padding-left:20px;margin:8px 0 12px}.guide-content li{margin:0 0 7px}.guide-empty{padding:14px;color:var(--muted)}
+.learn-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:16px;align-items:start}.learn-nav{position:sticky;top:78px;max-height:calc(100vh - 92px);overflow:auto;background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:22px;padding:12px;box-shadow:var(--shadow)}.learn-nav a{display:block;text-decoration:none;color:var(--slate);padding:8px 9px;border-radius:11px;font-weight:800;font-size:.9rem}.learn-nav a:hover{background:#eef2ff;color:#3730a3}.lesson-section{scroll-margin-top:92px}.backbar{display:none;margin-bottom:12px}.backbar.show{display:block}
+table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border-radius:14px;border:1px solid var(--line);background:#fff}th,td{padding:9px 10px;border-bottom:1px solid #e2e8f0;text-align:left;vertical-align:top;font-size:.92rem}th{background:#f1f5f9;color:var(--slate);font-size:.82rem;text-transform:uppercase;letter-spacing:.03em}tr:last-child td{border-bottom:none}.table-wrap{overflow:auto;border-radius:14px}.term{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;cursor:pointer;font-weight:900}.term:hover{color:var(--accent2)}.status{padding:10px 12px;border-radius:13px;border:1px solid var(--line);background:#f8fafc;margin:8px 0}.status.ok{border-color:#bbf7d0;color:#166534;background:#f0fdf4}.status.warn{border-color:#fed7aa;color:#9a3412;background:#fff7ed}.status.err{border-color:#fecaca;color:#991b1b;background:#fef2f2}.callout{border-left:4px solid var(--accent2);background:#eff6ff;padding:12px 13px;border-radius:13px;margin:10px 0}.callout.warn{border-color:var(--warn);background:#fff7ed}.callout.good{border-color:var(--good);background:#f0fdf4}.output-placeholder{text-align:center;padding:28px 14px;color:var(--muted);border:1px dashed #cbd5e1;border-radius:18px;background:#f8fafc}.section-divider{height:1px;background:var(--line);margin:14px 0}.btn-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.symbol{font-size:1.15em;font-weight:700;margin-right:4px}.topic-box{border:1px solid var(--line);border-radius:16px;padding:12px;background:#fff;margin:10px 0}.kbd{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f5f9;border:1px solid #cbd5e1;border-radius:7px;padding:2px 6px;color:var(--slate)}
+@media(max-width:1050px){.reader-layout,.learn-layout,.hero{grid-template-columns:1fr}.reader-right,.learn-nav{position:static;max-height:none}.form-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:680px){main{padding:12px}.app-header{align-items:flex-start;flex-direction:column}.grid.two,.grid.three,.grid.four,.form-grid{grid-template-columns:1fr}.form-grid .wide{grid-column:auto}.card-head{align-items:flex-start;flex-direction:column}th,td{font-size:.85rem}}@media print{.app-header,.nav,.btn,.learn-nav,.reader-right,.no-print{display:none!important}main{max-width:none;padding:0}.page{display:none!important}.page.active{display:block!important}.card{box-shadow:none;break-inside:avoid}.card.collapsed .card-body{display:block}.reader-layout,.learn-layout{display:block}body{background:#fff}}
+</style>
+</head>
+<body>
+<header class="app-header">
+  <div class="brand"><div class="brand-mark">☉</div><div><div>Belajar Membaca Natal Chart</div><div class="tiny muted">Klasik + Modern · eBook · Guiding · Input manual/semi-offline</div></div></div>
+  <nav class="nav" id="topNav">
+    <button data-page="home" class="active">Home</button>
+    <button data-page="learn">Belajar Dasar</button>
+    <button data-page="input">Input Data Chart</button>
+    <button data-page="classic">Natal Chart Klasik</button>
+    <button data-page="modern">Natal Chart Modern</button>
+    <button data-page="glossary">Glosarium</button>
+  </nav>
+</header>
+<main>
+<section id="page-home" class="page active">
+  <div class="hero">
+    <div class="hero-card">
+      <h1>Belajar membaca natal chart dari laporan chart yang sudah Anda punya.</h1>
+      <p>Aplikasi ini dibuat untuk pembelajar yang sulit menghafal. Hafalan dibangun lewat praktik berulang: melihat simbol, klik istilah, mengikuti formula, lalu menyusun interpretasi.</p>
+      <div class="pill-row"><span class="pill classic">Klasik / Tradisional</span><span class="pill blue">Modern</span><span class="pill">Guiding aktif</span><span class="pill">Simbol visual</span><span class="pill">Offline HTML</span></div>
+      <div class="btn-row" style="margin-top:14px"><button class="btn primary" onclick="showPage('input')">Mulai dari Input Data</button><button class="btn secondary" onclick="showPage('learn')">Buka Belajar Dasar</button></div>
+    </div>
+    <div class="hero-card">
+      <h2>Alur aplikasi</h2>
+      <p><b>1.</b> Masukkan data chart satu kali di halaman <b>Input Data Chart</b>.</p>
+      <p><b>2.</b> Data itu mengisi dua halaman: <b>Natal Chart Klasik</b> dan <b>Natal Chart Modern</b>.</p>
+      <p><b>3.</b> Jika data modern belum lengkap, halaman Modern memberi tahu bagian yang perlu diisi.</p>
+      <p><b>4.</b> Guiding memberi penjelasan cepat, lalu link ke materi lengkap dengan tombol <b>BACK</b> untuk kembali.</p>
+    </div>
+  </div>
+</section>
+
+<section id="page-learn" class="page">
+  <div class="backbar" id="learnBackBar"><button class="btn secondary" onclick="backToPreviousReader()">← BACK ke halaman sebelumnya</button></div>
+  <div class="learn-layout">
+    <aside class="learn-nav no-print" id="learnNav"></aside>
+    <div id="learnContent"></div>
+  </div>
+</section>
+
+<section id="page-input" class="page">
+  <div class="card">
+    <div class="card-head"><div class="card-title"><h2>Input Data Chart</h2><span class="small muted">Masukkan data satu kali. Setelah diproses, data mengisi halaman Klasik dan Modern.</span></div></div>
+    <div class="card-body">
+      <div class="grid four">
+        <button class="btn primary full" onclick="openOnlyInput('exampleCard')">Pilih Contoh Chart</button>
+        <button class="btn secondary full" onclick="openOnlyInput('semiOfflineCard')">Cari Data Natal Chart</button>
+        <button class="btn secondary full" onclick="openOnlyInput('manualInputCard')">Input Manual</button>
+        <button class="btn danger full" onclick="resetAll()">Reset Semua Data</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="exampleCard">
+    <div class="card-head"><div class="card-title"><h3>Contoh Chart Latihan</h3><span class="small muted">Pilih contoh yang ingin dibaca. Nama asli disembunyikan menjadi Person A, Person B, dan seterusnya.</span></div></div>
+    <div class="card-body">
+      <div class="form-grid">
+        <div class="wide"><label>Filter / Pilih contoh</label><select id="exampleSelect" onchange="renderExamplePreview()"><option value="personA">Person A</option><option value="personB">Person B</option><option value="personC">Person C</option><option value="personD">Person D</option><option value="personK">Person K</option></select></div>
+        <div class="wide"><label>Arah latihan</label><select id="exampleModeHint"><option>Mulai dari Natal Chart Klasik</option><option>Mulai dari Natal Chart Modern</option><option>Lihat data lengkap dulu</option></select></div>
+      </div>
+      <div id="examplePreview" class="status" style="margin-top:12px"></div>
+      <div class="btn-row" style="margin-top:12px">
+        <button class="btn primary" onclick="useSelectedExample()">Gunakan Contoh Ini</button>
+        <button class="btn secondary" onclick="useSelectedExample('classic')">Buka Klasik</button>
+        <button class="btn secondary" onclick="useSelectedExample('modern')">Buka Modern</button>
+        <button class="btn warn" onclick="fillPromptFromSelectedExample()">Isi Prompt dari Contoh</button>
+      </div>
+      <div class="callout warn"><b>Catatan:</b> contoh ini untuk latihan membaca. Data yang tampil di aplikasi hanya kode Person. Untuk Person A, C, D, dan K, data Chiron belum dihitung di contoh bawaan; halaman Modern akan memberi input tambahan jika Anda ingin melengkapinya.</div>
+    </div>
+  </div>
+
+  <div class="card collapsed" id="semiOfflineCard">
+    <div class="card-head"><div class="card-title"><h3>Cari Data Natal Chart / Semi-Offline</h3><span class="small muted">Buat prompt, cari data di ChatGPT lain, lalu paste JSON.</span></div><button class="btn toggle" onclick="toggleCard('semiOfflineCard')">Buka | Tutup</button></div>
+    <div class="card-body">
+      <div class="form-grid">
+        <div><label>Nama pemilik chart</label><input id="birthName" placeholder="Person B"></div>
+        <div><label>Tanggal lahir</label><input id="birthDate" placeholder="28 Agustus 1978"></div>
+        <div><label>Jam lahir</label><input id="birthTime" placeholder="22:16"></div>
+        <div><label>Zona waktu</label><select id="birthTimezone"><option>WIB / UTC+7</option><option>WITA / UTC+8</option><option>WIT / UTC+9</option><option>UTC</option></select></div>
+        <div class="wide"><label>Tempat lahir</label><input id="birthPlace" placeholder="Menteng, Jakarta Pusat"></div>
+        <div><label>Provinsi</label><input id="birthProvince" placeholder="DKI Jakarta"></div>
+        <div><label>Negara</label><input id="birthCountry" value="Indonesia"></div>
+        <div><label>Zodiac</label><select id="birthZodiac"><option>Tropical</option><option>Sidereal</option></select></div>
+        <div><label>House system</label><select id="birthHouseSystem"><option>Placidus</option><option>Whole Sign</option><option>Regiomontanus</option><option>Porphyry</option><option>Equal House</option><option>Campanus</option><option>Koch</option></select></div>
+        <div><label>Jenis data</label><select id="birthDataScope"><option>Klasik saja</option><option>Klasik + Modern</option></select></div>
+        <div class="wide"><label>Koordinat jika ada</label><input id="birthCoord" placeholder="-6.1939, 106.8354"></div>
+      </div>
+      <div class="btn-row" style="margin-top:12px"><button class="btn primary" onclick="makePrompt()">Buat Prompt Natal Chart</button><button class="btn secondary" onclick="copyText('generatedPrompt')">Copy Prompt</button></div>
+      <label style="margin-top:12px">Prompt untuk ChatGPT terpisah</label><textarea id="generatedPrompt" placeholder="Prompt akan muncul di sini..."></textarea>
+    </div>
+  </div>
+
+  <div class="card collapsed" id="jsonCard">
+    <div class="card-head"><div class="card-title"><h3>Paste JSON Natal Chart</h3><span class="small muted">JSON dari prompt semi-offline akan diproses menjadi data aplikasi.</span></div><button class="btn toggle" onclick="toggleCard('jsonCard')">Buka | Tutup</button></div>
+    <div class="card-body">
+      <label>Paste JSON</label><textarea id="jsonInput" placeholder='{"chartInfo":{},"houses":[],"planets":[],"modernPoints":[],"aspects":[]}'></textarea>
+      <div class="btn-row" style="margin-top:12px"><button class="btn primary" onclick="processJson()">Proses JSON</button><button class="btn secondary" onclick="openOnlyInput('manualInputCard')">Atau Input Manual</button></div>
+      <div id="jsonStatus"></div>
+    </div>
+  </div>
+
+  <div class="card collapsed" id="manualInputCard">
+    <div class="card-head"><div class="card-title"><h3>Input Manual dari Laporan Natal Chart</h3><span class="small muted">Gunakan jika Anda sudah punya data house, planet, dan aspek.</span></div><button class="btn toggle" onclick="toggleCard('manualInputCard')">Buka | Tutup</button></div>
+    <div class="card-body">
+      <div class="mini-tabs"><button class="active" onclick="manualTab(event,'tab-basic')">Data Dasar</button><button onclick="manualTab(event,'tab-house')">House</button><button onclick="manualTab(event,'tab-planet')">Planet Klasik</button><button onclick="manualTab(event,'tab-modern')">Planet Modern</button><button onclick="manualTab(event,'tab-aspect')">Aspek Opsional</button></div>
+      <div id="tab-basic" class="manual-tab active">
+        <div class="form-grid">
+          <div><label>Nama chart</label><input id="mName" placeholder="Person B — Natal Chart"></div><div><label>Nama pemilik</label><input id="mOwner" placeholder="Person B"></div><div><label>Tanggal lahir</label><input id="mBirthDate" placeholder="28 Agustus 1978"></div><div><label>Jam lahir</label><input id="mBirthTime" placeholder="22:16 WIB"></div><div class="wide"><label>Tempat lahir</label><input id="mBirthplace" placeholder="Menteng, Jakarta Pusat, DKI Jakarta"></div><div><label>Zona waktu</label><input id="mTimezone" placeholder="WIB / UTC+7"></div><div><label>Zodiac</label><select id="mZodiac"><option>Tropical</option><option>Sidereal</option></select></div><div><label>House system</label><select id="mHouseSystem"><option>Placidus</option><option>Whole Sign</option><option>Regiomontanus</option><option>Porphyry</option><option>Equal House</option><option>Campanus</option><option>Koch</option></select></div><div class="wide"><label>Koordinat</label><input id="mCoordinates" placeholder="± 6°11′ S, 106°50′ E"></div><div class="wide"><label>Sumber data</label><input id="mSource" placeholder="Astro.com / Astro-Seek / sumber lain"></div>
+        </div>
+      </div>
+      <div id="tab-house" class="manual-tab"><div class="callout">Isi 12 house dari laporan chart. Detik tidak wajib. Simbol zodiak muncul agar mudah hafal.</div><div id="houseInputs" class="table-wrap"></div></div>
+      <div id="tab-planet" class="manual-tab"><div class="callout good">Untuk pembacaan Klasik, 7 planet klasik adalah data utama.</div><div id="classicPlanetInputs" class="table-wrap"></div></div>
+      <div id="tab-modern" class="manual-tab"><div class="callout warn"><b>Bagian Modern.</b> Jika Anda hanya membaca Klasik, bagian ini boleh dikosongkan. Jika membuka Natal Chart Modern, data yang kurang akan diberi tahu.</div><div id="modernPlanetInputs" class="table-wrap"></div></div>
+      <div id="tab-aspect" class="manual-tab"><div class="callout">Aspek opsional. Jika belum tahu applying/separating, pilih “Tidak tahu”.</div><div id="aspectInputs" class="table-wrap"></div><div class="btn-row" style="margin-top:10px"><button class="btn secondary" onclick="addAspectRow()">Tambah Aspek</button></div></div>
+      <div class="btn-row" style="margin-top:14px"><button class="btn primary" onclick="processManual()">Proses & Simpan Data Chart</button><button class="btn secondary" onclick="validateAndRender()">Validasi Data</button></div>
+    </div>
+  </div>
+
+  <div class="card" id="validationCard">
+    <div class="card-head"><div class="card-title"><h3>Validasi Data Chart</h3><span class="small muted">Status kelengkapan data Klasik dan Modern.</span></div></div>
+    <div class="card-body" id="validationOutput"><div class="output-placeholder">Belum ada chart diproses. Gunakan contoh, JSON, atau input manual.</div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-head"><div class="card-title"><h3>Lanjutkan Pembacaan</h3><span class="small muted">Tombol aktif setelah data chart diproses.</span></div></div>
+    <div class="card-body"><div class="grid two"><button class="btn primary full" onclick="showPage('classic')">Buka Natal Chart Klasik</button><button class="btn secondary full" onclick="showPage('modern')">Buka Natal Chart Modern</button></div></div>
+  </div>
+</section>
+
+<section id="page-classic" class="page">
+  <div class="reader-layout"><div class="reader-left" id="classicLeft"></div><aside class="reader-right"><div class="guide-panel"><div class="guide-head"><h3>Guiding Klasik</h3><p class="small muted">Klik istilah pada data/interpretasi. Link materi lengkap punya tombol BACK.</p></div><div class="guide-list" id="classicGuide"><div class="guide-empty">Belum ada istilah dipilih.</div></div></div></aside></div>
+</section>
+<section id="page-modern" class="page">
+  <div class="reader-layout"><div class="reader-left" id="modernLeft"></div><aside class="reader-right"><div class="guide-panel"><div class="guide-head"><h3>Guiding Modern</h3><p class="small muted">Klik istilah pada data/interpretasi. Jika data modern kurang, lengkapi di bagian atas.</p></div><div class="guide-list" id="modernGuide"><div class="guide-empty">Belum ada istilah dipilih.</div></div></div></aside></div>
+</section>
+
+<section id="page-glossary" class="page">
+  <div class="card"><div class="card-head"><div class="card-title"><h2>Glosarium Cepat</h2><span class="small muted">Istilah Inggris diberi padanan Indonesia bila ada.</span></div></div><div class="card-body" id="glossaryContent"></div></div>
+</section>
+</main>
+<script>
+const SIGNS=['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
+const SIGN_SYMBOL={Aries:'♈',Taurus:'♉',Gemini:'♊',Cancer:'♋',Leo:'♌',Virgo:'♍',Libra:'♎',Scorpio:'♏',Sagittarius:'♐',Capricorn:'♑',Aquarius:'♒',Pisces:'♓'};
+const PLANET_SYMBOL={Sun:'☉',Moon:'☽',Mercury:'☿',Venus:'♀',Mars:'♂',Jupiter:'♃',Saturn:'♄',Uranus:'♅',Neptune:'♆',Pluto:'♇',Chiron:'⚷','North Node':'☊','South Node':'☋',Lilith:'⚸'};
+const ASPECT_SYMBOL={Conjunction:'☌',Sextile:'⚹',Square:'□',Trine:'△',Opposition:'☍'};
+const CLASSIC_PLANETS=['Sun','Moon','Mercury','Venus','Mars','Jupiter','Saturn'];
+const MODERN_POINTS=['Uranus','Neptune','Pluto','Chiron','North Node','South Node','Lilith'];
+const REQUIRED_MODERN=['Uranus','Neptune','Pluto','Chiron','North Node','South Node'];
+const SIGN_RULER={Aries:'Mars',Taurus:'Venus',Gemini:'Mercury',Cancer:'Moon',Leo:'Sun',Virgo:'Mercury',Libra:'Venus',Scorpio:'Mars',Sagittarius:'Jupiter',Capricorn:'Saturn',Aquarius:'Saturn',Pisces:'Jupiter'};
+const DIGNITY={Sun:{domicile:['Leo'],exaltation:['Aries'],detriment:['Aquarius'],fall:['Libra']},Moon:{domicile:['Cancer'],exaltation:['Taurus'],detriment:['Capricorn'],fall:['Scorpio']},Mercury:{domicile:['Gemini','Virgo'],exaltation:['Virgo'],detriment:['Sagittarius','Pisces'],fall:['Pisces']},Venus:{domicile:['Taurus','Libra'],exaltation:['Pisces'],detriment:['Scorpio','Aries'],fall:['Virgo']},Mars:{domicile:['Aries','Scorpio'],exaltation:['Capricorn'],detriment:['Libra','Taurus'],fall:['Cancer']},Jupiter:{domicile:['Sagittarius','Pisces'],exaltation:['Cancer'],detriment:['Gemini','Virgo'],fall:['Capricorn']},Saturn:{domicile:['Capricorn','Aquarius'],exaltation:['Libra'],detriment:['Cancer','Leo'],fall:['Aries']}};
+const HOUSE_MEANINGS={1:'diri, tubuh, karakter, cara hadir ke dunia',2:'uang, harta, makanan, simpanan, nilai pribadi',3:'saudara, komunikasi, tulisan, perjalanan dekat',4:'rumah, keluarga, akar, orang tua, dasar kehidupan',5:'anak, kreativitas, kesenangan, karya, cinta romantis',6:'kerja harian, kesehatan, rutinitas, pelayanan, beban',7:'pasangan, relasi, kontrak, lawan terbuka, publik',8:'hutang, krisis, warisan, transformasi, ketakutan',9:'ilmu tinggi, agama, guru, perjalanan jauh, makna hidup',10:'karier, reputasi, martabat, jabatan, pencapaian',11:'teman, jaringan, harapan, keuntungan, dukungan sosial',12:'musuh tersembunyi, isolasi, kesedihan, kerja belakang layar'};
+const TOPICS={general:{label:'Bacaan Umum',house:null,title:'Bacaan Umum'},h1:{label:'Diri / House 1',house:1,title:'Diri'},h2:{label:'Uang / House 2',house:2,title:'Uang'},h3:{label:'Saudara & Komunikasi / House 3',house:3,title:'Saudara & Komunikasi'},h4:{label:'Rumah & Keluarga / House 4',house:4,title:'Rumah & Keluarga'},h5:{label:'Anak & Kreativitas / House 5',house:5,title:'Anak & Kreativitas'},h6:{label:'Kerja Harian & Kesehatan / House 6',house:6,title:'Kerja Harian & Kesehatan'},h7:{label:'Pasangan / House 7',house:7,title:'Pasangan'},h8:{label:'Krisis, Hutang & Transformasi / House 8',house:8,title:'Krisis, Hutang & Transformasi'},h9:{label:'Ilmu, Agama & Perjalanan Jauh / House 9',house:9,title:'Ilmu, Agama & Perjalanan Jauh'},h10:{label:'Karier & Reputasi / House 10',house:10,title:'Karier & Reputasi'},h11:{label:'Teman & Harapan / House 11',house:11,title:'Teman & Harapan'},h12:{label:'Musuh Tersembunyi & Isolasi / House 12',house:12,title:'Musuh Tersembunyi & Isolasi'}};
+let currentChart=null; let lastReaderPage='classic'; let aspectRows=3;
+const EXAMPLE_CHARTS={"personA":{"code":"Person A","status":"Siap baca offline","info":{"name":"Person A — Data Latihan","owner":"Person A","birthDate":"03-05-1991","birthTime":"08:58 WIB","timezone":"WIB / UTC+7","birthplace":"Medan, Sumatera Utara, Indonesia","coordinates":"3°36′55″ N, 98°36′18″ E","zodiac":"Tropical","houseSystem":"Placidus","source":"Contoh bawaan aplikasi; nama asli disembunyikan. Data teknis dihitung dari data lahir dan koordinat yang tersedia/perkiraan lokasi."},"houses":[{"house":1,"label":"ASC","sign":"Gemini","degree":20,"minute":56},{"house":2,"label":"","sign":"Cancer","degree":18,"minute":4},{"house":3,"label":"","sign":"Leo","degree":16,"minute":28},{"house":4,"label":"IC","sign":"Virgo","degree":17,"minute":35},{"house":5,"label":"","sign":"Libra","degree":20,"minute":18},{"house":6,"label":"","sign":"Scorpio","degree":21,"minute":48},{"house":7,"label":"DESC","sign":"Sagittarius","degree":20,"minute":56},{"house":8,"label":"","sign":"Capricorn","degree":18,"minute":4},{"house":9,"label":"","sign":"Aquarius","degree":16,"minute":28},{"house":10,"label":"MC","sign":"Pisces","degree":17,"minute":35},{"house":11,"label":"","sign":"Aries","degree":20,"minute":18},{"house":12,"label":"","sign":"Taurus","degree":21,"minute":48}],"planets":[{"name":"Sun","sign":"Taurus","degree":12,"minute":9,"house":11,"motion":"Direct"},{"name":"Moon","sign":"Sagittarius","degree":29,"minute":3,"house":7,"motion":"Direct"},{"name":"Mercury","sign":"Aries","degree":18,"minute":51,"house":10,"motion":"Direct"},{"name":"Venus","sign":"Gemini","degree":23,"minute":15,"house":1,"motion":"Direct"},{"name":"Mars","sign":"Cancer","degree":16,"minute":30,"house":1,"motion":"Direct"},{"name":"Jupiter","sign":"Leo","degree":5,"minute":15,"house":2,"motion":"Direct"},{"name":"Saturn","sign":"Aquarius","degree":6,"minute":41,"house":8,"motion":"Direct"}],"modernPoints":[{"name":"Uranus","sign":"Capricorn","degree":13,"minute":44,"house":7,"motion":"Retrograde"},{"name":"Neptune","sign":"Capricorn","degree":16,"minute":43,"house":7,"motion":"Retrograde"},{"name":"Pluto","sign":"Scorpio","degree":19,"minute":11,"house":5,"motion":"Retrograde"},{"name":"North Node","sign":"Capricorn","degree":21,"minute":15,"house":8,"motion":"Retrograde"},{"name":"South Node","sign":"Cancer","degree":21,"minute":15,"house":2,"motion":"Retrograde"}],"aspects":[{"planetA":"Sun","aspect":"Sextile","planetB":"Mars","orb":"4°21'","status":"Tidak tahu"},{"planetA":"Sun","aspect":"Square","planetB":"Saturn","orb":"5°28'","status":"Tidak tahu"},{"planetA":"Sun","aspect":"Trine","planetB":"Uranus","orb":"1°34'","status":"Tidak tahu"},{"planetA":"Sun","aspect":"Trine","planetB":"Neptune","orb":"4°33'","status":"Tidak tahu"},{"planetA":"Sun","aspect":"Opposition","planetB":"Pluto","orb":"7°02'","status":"Tidak tahu"},{"planetA":"Moon","aspect":"Opposition","planetB":"Venus","orb":"5°48'","status":"Tidak tahu"},{"planetA":"Mercury","aspect":"Sextile","planetB":"Venus","orb":"4°24'","status":"Tidak tahu"},{"planetA":"Mercury","aspect":"Square","planetB":"Mars","orb":"2°21'","status":"Tidak tahu"},{"planetA":"Mercury","aspect":"Square","planetB":"Uranus","orb":"5°08'","status":"Tidak tahu"},{"planetA":"Mercury","aspect":"Square","planetB":"Neptune","orb":"2°09'","status":"Tidak tahu"},{"planetA":"Mercury","aspect":"Square","planetB":"North Node","orb":"2°24'","status":"Tidak tahu"},{"planetA":"Mars","aspect":"Opposition","planetB":"Uranus","orb":"2°47'","status":"Tidak tahu"},{"planetA":"Mars","aspect":"Opposition","planetB":"Neptune","orb":"0°12'","status":"Tidak tahu"},{"planetA":"Mars","aspect":"Trine","planetB":"Pluto","orb":"2°41'","status":"Tidak tahu"},{"planetA":"Mars","aspect":"Opposition","planetB":"North Node","orb":"4°45'","status":"Tidak tahu"},{"planetA":"Jupiter","aspect":"Opposition","planetB":"Saturn","orb":"1°26'","status":"Tidak tahu"},{"planetA":"Uranus","aspect":"Conjunction","planetB":"Neptune","orb":"2°59'","status":"Tidak tahu"},{"planetA":"Uranus","aspect":"Conjunction","planetB":"North Node","orb":"7°32'","status":"Tidak tahu"},{"planetA":"Neptune","aspect":"Sextile","planetB":"Pluto","orb":"2°29'","status":"Tidak tahu"},{"planetA":"Neptune","aspect":"Conjunction","planetB":"North Node","orb":"4°32'","status":"Tidak tahu"},{"planetA":"Pluto","aspect":"Sextile","planetB":"North Node","orb":"2°04'","status":"Tidak tahu"}]},"personB":{"info":{"name":"Person B — Data Latihan","owner":"Person B","birthDate":"28 Agustus 1978","birthTime":"22:16 WIB","timezone":"WIB / UTC+7","birthplace":"Menteng, Jakarta Pusat, DKI Jakarta, Indonesia","coordinates":"± 6°11′ S, 106°50′ E","zodiac":"Tropical","houseSystem":"Placidus","source":"Contoh bawaan aplikasi; nama asli disembunyikan. Data teknis mengikuti data latihan yang sudah disiapkan."},"houses":[{"house":1,"label":"ASC","sign":"Taurus","degree":13,"minute":1},{"house":2,"label":"","sign":"Gemini","degree":12,"minute":7},{"house":3,"label":"","sign":"Cancer","degree":10,"minute":31},{"house":4,"label":"IC","sign":"Leo","degree":9,"minute":53},{"house":5,"label":"","sign":"Virgo","degree":11,"minute":8},{"house":6,"label":"","sign":"Libra","degree":12,"minute":59},{"house":7,"label":"DESC","sign":"Scorpio","degree":13,"minute":1},{"house":8,"label":"","sign":"Sagittarius","degree":12,"minute":7},{"house":9,"label":"","sign":"Capricorn","degree":10,"minute":31},{"house":10,"label":"MC","sign":"Aquarius","degree":9,"minute":53},{"house":11,"label":"","sign":"Pisces","degree":11,"minute":8},{"house":12,"label":"","sign":"Aries","degree":12,"minute":59}],"planets":[{"name":"Sun","sign":"Virgo","degree":4,"minute":58,"house":4,"motion":"Direct"},{"name":"Moon","sign":"Cancer","degree":9,"minute":33,"house":2,"motion":"Direct"},{"name":"Mercury","sign":"Leo","degree":20,"minute":21,"house":4,"motion":"Retrograde"},{"name":"Venus","sign":"Libra","degree":21,"minute":2,"house":6,"motion":"Direct"},{"name":"Mars","sign":"Libra","degree":15,"minute":21,"house":6,"motion":"Direct"},{"name":"Jupiter","sign":"Cancer","degree":28,"minute":29,"house":3,"motion":"Direct"},{"name":"Saturn","sign":"Virgo","degree":4,"minute":6,"house":4,"motion":"Direct"}],"modernPoints":[{"name":"Uranus","sign":"Scorpio","degree":12,"minute":30,"house":7,"motion":"Direct"},{"name":"Neptune","sign":"Sagittarius","degree":15,"minute":20,"house":8,"motion":"Retrograde"},{"name":"Pluto","sign":"Libra","degree":15,"minute":10,"house":6,"motion":"Direct"},{"name":"Chiron","sign":"Taurus","degree":8,"minute":0,"house":12,"motion":"Retrograde"},{"name":"North Node","sign":"Libra","degree":28,"minute":0,"house":6,"motion":"Retrograde"},{"name":"South Node","sign":"Aries","degree":28,"minute":0,"house":12,"motion":"Retrograde"}],"aspects":[{"planetA":"Sun","aspect":"Sextile","planetB":"Moon","orb":"4°36'","status":"Separating"},{"planetA":"Sun","aspect":"Conjunction","planetB":"Saturn","orb":"0°51'","status":"Separating"},{"planetA":"Moon","aspect":"Square","planetB":"Mars","orb":"5°48'","status":"Applying"},{"planetA":"Mercury","aspect":"Sextile","planetB":"Venus","orb":"0°41'","status":"Separating"},{"planetA":"Venus","aspect":"Conjunction","planetB":"Mars","orb":"5°41'","status":"Separating"}],"code":"Person B","status":"Siap baca offline"},"personC":{"code":"Person C","status":"Siap baca offline","info":{"name":"Person C — Data Latihan","owner":"Person C","birthDate":"21-01-1978","birthTime":"08:50 WIB","timezone":"WIB / UTC+7","birthplace":"RS Kariadi, Semarang Selatan, Semarang, Jawa Tengah, Indonesia","coordinates":"± 6°59′36″ S, 110°24′25″ E","zodiac":"Tropical","houseSystem":"Placidus","source":"Contoh bawaan aplikasi; nama asli disembunyikan. Data teknis dihitung dari data lahir dan koordinat yang tersedia/perkiraan lokasi."},"houses":[{"house":1,"label":"ASC","sign":"Pisces","degree":17,"minute":36},{"house":2,"label":"","sign":"Aries","degree":18,"minute":50},{"house":3,"label":"","sign":"Taurus","degree":19,"minute":41},{"house":4,"label":"IC","sign":"Gemini","degree":18,"minute":57},{"house":5,"label":"","sign":"Cancer","degree":17,"minute":29},{"house":6,"label":"","sign":"Leo","degree":16,"minute":52},{"house":7,"label":"DESC","sign":"Virgo","degree":17,"minute":36},{"house":8,"label":"","sign":"Libra","degree":18,"minute":50},{"house":9,"label":"","sign":"Scorpio","degree":19,"minute":41},{"house":10,"label":"MC","sign":"Sagittarius","degree":18,"minute":57},{"house":11,"label":"","sign":"Capricorn","degree":17,"minute":29},{"house":12,"label":"","sign":"Aquarius","degree":16,"minute":52}],"planets":[{"name":"Sun","sign":"Aquarius","degree":0,"minute":40,"house":11,"motion":"Direct"},{"name":"Moon","sign":"Gemini","degree":25,"minute":3,"house":4,"motion":"Direct"},{"name":"Mercury","sign":"Capricorn","degree":8,"minute":56,"house":10,"motion":"Direct"},{"name":"Venus","sign":"Aquarius","degree":0,"minute":23,"house":11,"motion":"Direct"},{"name":"Mars","sign":"Leo","degree":1,"minute":59,"house":5,"motion":"Retrograde"},{"name":"Jupiter","sign":"Gemini","degree":27,"minute":33,"house":4,"motion":"Retrograde"},{"name":"Saturn","sign":"Leo","degree":29,"minute":7,"house":6,"motion":"Retrograde"}],"modernPoints":[{"name":"Uranus","sign":"Scorpio","degree":16,"minute":0,"house":8,"motion":"Direct"},{"name":"Neptune","sign":"Sagittarius","degree":17,"minute":24,"house":9,"motion":"Direct"},{"name":"Pluto","sign":"Libra","degree":16,"minute":42,"house":7,"motion":"Retrograde"},{"name":"North Node","sign":"Libra","degree":8,"minute":39,"house":7,"motion":"Retrograde"},{"name":"South Node","sign":"Aries","degree":8,"minute":39,"house":1,"motion":"Retrograde"}],"aspects":[{"planetA":"Sun","aspect":"Conjunction","planetB":"Venus","orb":"0°17'","status":"Tidak tahu"},{"planetA":"Sun","aspect":"Opposition","planetB":"Mars","orb":"1°19'","status":"Tidak tahu"},{"planetA":"Moon","aspect":"Conjunction","planetB":"Jupiter","orb":"2°29'","status":"Tidak tahu"},{"planetA":"Moon","aspect":"Sextile","planetB":"Saturn","orb":"4°03'","status":"Tidak tahu"},{"planetA":"Moon","aspect":"Opposition","planetB":"Neptune","orb":"7°39'","status":"Tidak tahu"},{"planetA":"Mercury","aspect":"Square","planetB":"North Node","orb":"0°17'","status":"Tidak tahu"},{"planetA":"Venus","aspect":"Opposition","planetB":"Mars","orb":"1°36'","status":"Tidak tahu"},{"planetA":"Jupiter","aspect":"Sextile","planetB":"Saturn","orb":"1°34'","status":"Tidak tahu"},{"planetA":"Neptune","aspect":"Sextile","planetB":"Pluto","orb":"0°42'","status":"Tidak tahu"}]},"personD":{"code":"Person D","status":"Siap baca offline","info":{"name":"Person D — Data Latihan","owner":"Person D","birthDate":"25-07-1972","birthTime":"22:30 WIB","timezone":"WIB / UTC+7","birthplace":"Kalibata, Pancoran, Jakarta Selatan, DKI Jakarta, Indonesia","coordinates":"± 6°15′47″ S, 106°50′07″ E","zodiac":"Tropical","houseSystem":"Placidus","source":"Contoh bawaan aplikasi; nama asli disembunyikan. Data teknis dihitung dari data lahir dan koordinat yang tersedia/perkiraan lokasi."},"houses":[{"house":1,"label":"ASC","sign":"Aries","degree":13,"minute":15},{"house":2,"label":"","sign":"Taurus","degree":14,"minute":2},{"house":3,"label":"","sign":"Gemini","degree":13,"minute":19},{"house":4,"label":"IC","sign":"Cancer","degree":11,"minute":45},{"house":5,"label":"","sign":"Leo","degree":10,"minute":59},{"house":6,"label":"","sign":"Virgo","degree":11,"minute":53},{"house":7,"label":"DESC","sign":"Libra","degree":13,"minute":15},{"house":8,"label":"","sign":"Scorpio","degree":14,"minute":2},{"house":9,"label":"","sign":"Sagittarius","degree":13,"minute":19},{"house":10,"label":"MC","sign":"Capricorn","degree":11,"minute":45},{"house":11,"label":"","sign":"Aquarius","degree":10,"minute":59},{"house":12,"label":"","sign":"Pisces","degree":11,"minute":53}],"planets":[{"name":"Sun","sign":"Leo","degree":2,"minute":46,"house":4,"motion":"Direct"},{"name":"Moon","sign":"Capricorn","degree":24,"minute":50,"house":10,"motion":"Direct"},{"name":"Mercury","sign":"Leo","degree":22,"minute":20,"house":5,"motion":"Retrograde"},{"name":"Venus","sign":"Gemini","degree":22,"minute":47,"house":3,"motion":"Direct"},{"name":"Mars","sign":"Leo","degree":17,"minute":4,"house":5,"motion":"Direct"},{"name":"Jupiter","sign":"Sagittarius","degree":29,"minute":55,"house":9,"motion":"Retrograde"},{"name":"Saturn","sign":"Gemini","degree":16,"minute":39,"house":3,"motion":"Direct"}],"modernPoints":[{"name":"Uranus","sign":"Libra","degree":14,"minute":42,"house":7,"motion":"Direct"},{"name":"Neptune","sign":"Sagittarius","degree":2,"minute":35,"house":8,"motion":"Retrograde"},{"name":"Pluto","sign":"Virgo","degree":29,"minute":53,"house":6,"motion":"Direct"},{"name":"North Node","sign":"Capricorn","degree":26,"minute":3,"house":10,"motion":"Direct"},{"name":"South Node","sign":"Cancer","degree":26,"minute":3,"house":4,"motion":"Direct"}],"aspects":[{"planetA":"Sun","aspect":"Opposition","planetB":"Moon","orb":"7°56'","status":"Tidak tahu"},{"planetA":"Sun","aspect":"Trine","planetB":"Neptune","orb":"0°11'","status":"Tidak tahu"},{"planetA":"Sun","aspect":"Sextile","planetB":"Pluto","orb":"2°53'","status":"Tidak tahu"},{"planetA":"Sun","aspect":"Opposition","planetB":"North Node","orb":"6°43'","status":"Tidak tahu"},{"planetA":"Moon","aspect":"Trine","planetB":"Pluto","orb":"5°03'","status":"Tidak tahu"},{"planetA":"Moon","aspect":"Conjunction","planetB":"North Node","orb":"1°13'","status":"Tidak tahu"},{"planetA":"Mercury","aspect":"Sextile","planetB":"Venus","orb":"0°27'","status":"Tidak tahu"},{"planetA":"Mercury","aspect":"Conjunction","planetB":"Mars","orb":"5°16'","status":"Tidak tahu"},{"planetA":"Venus","aspect":"Opposition","planetB":"Jupiter","orb":"7°08'","status":"Tidak tahu"},{"planetA":"Venus","aspect":"Conjunction","planetB":"Saturn","orb":"6°08'","status":"Tidak tahu"},{"planetA":"Mars","aspect":"Sextile","planetB":"Saturn","orb":"0°25'","status":"Tidak tahu"},{"planetA":"Mars","aspect":"Sextile","planetB":"Uranus","orb":"2°23'","status":"Tidak tahu"},{"planetA":"Jupiter","aspect":"Square","planetB":"Pluto","orb":"0°02'","status":"Tidak tahu"},{"planetA":"Saturn","aspect":"Trine","planetB":"Uranus","orb":"1°58'","status":"Tidak tahu"},{"planetA":"Neptune","aspect":"Sextile","planetB":"Pluto","orb":"2°42'","status":"Tidak tahu"},{"planetA":"Pluto","aspect":"Trine","planetB":"North Node","orb":"3°50'","status":"Tidak tahu"}]},"personK":{"code":"Person K","status":"Siap baca offline","info":{"name":"Person K — Data Latihan","owner":"Person K","birthDate":"30-03-1992","birthTime":"19:15 WIB","timezone":"WIB / UTC+7","birthplace":"RS Pondok Indah - Pondok Indah, Jakarta Selatan, DKI Jakarta, Indonesia","coordinates":"6°17′01.6″ S, 106°46′53.5″ E","zodiac":"Tropical","houseSystem":"Placidus","source":"Contoh bawaan aplikasi; nama asli disembunyikan. Data teknis dihitung dari data lahir dan koordinat RS Pondok Indah - Pondok Indah."},"houses":[{"house":1,"label":"ASC","sign":"Scorpio","degree":2,"minute":13},{"house":2,"label":"","sign":"Sagittarius","degree":2,"minute":20},{"house":3,"label":"","sign":"Sagittarius","degree":29,"minute":37},{"house":4,"label":"IC","sign":"Capricorn","degree":26,"minute":38},{"house":5,"label":"","sign":"Aquarius","degree":25,"minute":56},{"house":6,"label":"","sign":"Pisces","degree":28,"minute":30},{"house":7,"label":"DESC","sign":"Taurus","degree":2,"minute":13},{"house":8,"label":"","sign":"Gemini","degree":2,"minute":20},{"house":9,"label":"","sign":"Gemini","degree":29,"minute":37},{"house":10,"label":"MC","sign":"Cancer","degree":26,"minute":38},{"house":11,"label":"","sign":"Leo","degree":25,"minute":56},{"house":12,"label":"","sign":"Virgo","degree":28,"minute":30}],"planets":[{"name":"Sun","sign":"Aries","degree":10,"minute":3,"house":6,"motion":"Direct"},{"name":"Moon","sign":"Aquarius","degree":27,"minute":56,"house":5,"motion":"Direct"},{"name":"Mercury","sign":"Aries","degree":2,"minute":55,"house":6,"motion":"Retrograde"},{"name":"Venus","sign":"Pisces","degree":20,"minute":23,"house":5,"motion":"Direct"},{"name":"Mars","sign":"Pisces","degree":1,"minute":53,"house":5,"motion":"Direct"},{"name":"Jupiter","sign":"Virgo","degree":6,"minute":6,"house":11,"motion":"Retrograde"},{"name":"Saturn","sign":"Aquarius","degree":15,"minute":48,"house":4,"motion":"Direct"}],"modernPoints":[{"name":"Uranus","sign":"Capricorn","degree":17,"minute":48,"house":3,"motion":"Direct"},{"name":"Neptune","sign":"Capricorn","degree":18,"minute":50,"house":3,"motion":"Direct"},{"name":"Pluto","sign":"Scorpio","degree":22,"minute":37,"house":1,"motion":"Retrograde"},{"name":"North Node","sign":"Capricorn","degree":4,"minute":59,"house":3,"motion":"Retrograde"},{"name":"South Node","sign":"Cancer","degree":4,"minute":59,"house":9,"motion":"Retrograde"}],"aspects":[{"planetA":"Sun","aspect":"Conjunction","planetB":"Mercury","orb":"7°08'","status":"Tidak tahu"},{"planetA":"Sun","aspect":"Square","planetB":"North Node","orb":"5°03'","status":"Tidak tahu"},{"planetA":"Moon","aspect":"Conjunction","planetB":"Mars","orb":"3°57'","status":"Tidak tahu"},{"planetA":"Moon","aspect":"Square","planetB":"Pluto","orb":"5°18'","status":"Tidak tahu"},{"planetA":"Mercury","aspect":"Square","planetB":"North Node","orb":"2°05'","status":"Tidak tahu"},{"planetA":"Venus","aspect":"Sextile","planetB":"Uranus","orb":"2°35'","status":"Tidak tahu"},{"planetA":"Venus","aspect":"Sextile","planetB":"Neptune","orb":"1°33'","status":"Tidak tahu"},{"planetA":"Venus","aspect":"Trine","planetB":"Pluto","orb":"2°14'","status":"Tidak tahu"},{"planetA":"Mars","aspect":"Opposition","planetB":"Jupiter","orb":"4°14'","status":"Tidak tahu"},{"planetA":"Mars","aspect":"Sextile","planetB":"North Node","orb":"3°07'","status":"Tidak tahu"},{"planetA":"Jupiter","aspect":"Trine","planetB":"North Node","orb":"1°07'","status":"Tidak tahu"},{"planetA":"Uranus","aspect":"Conjunction","planetB":"Neptune","orb":"1°02'","status":"Tidak tahu"},{"planetA":"Uranus","aspect":"Sextile","planetB":"Pluto","orb":"4°49'","status":"Tidak tahu"},{"planetA":"Neptune","aspect":"Sextile","planetB":"Pluto","orb":"3°47'","status":"Tidak tahu"}]}};
+const EXAMPLE_META={"personA":{"label":"Person A","birth":"3 Mei 1991 · 08:58 WIB · Medan","focus":"ASC, Lord Ascendant, Moon di house relasi, planet di House 1, karier/MC.","status":"Siap baca offline. Chiron belum tersedia; halaman Modern akan meminta data tambahan jika diperlukan."},"personB":{"label":"Person B","birth":"28 Agustus 1978 · 22:16 WIB · Jakarta","focus":"Lord Ascendant, Moon, House 2, House 10, dignity klasik dan perbandingan modern.","status":"Siap baca offline untuk Klasik dan Modern."},"personC":{"label":"Person C","birth":"21 Januari 1978 · 08:50 WIB · Semarang","focus":"ASC Pisces, planet di House 11, rumah/keluarga, komunikasi, retrograde Mars/Jupiter/Saturn.","status":"Siap baca offline. Chiron belum tersedia; halaman Modern akan meminta data tambahan jika diperlukan."},"personD":{"label":"Person D","birth":"25 Juli 1972 · 22:30 WIB · Jakarta","focus":"ASC Aries, Moon di House 10, karier/reputasi, planet Leo, komunikasi/House 3.","status":"Siap baca offline. Chiron belum tersedia; halaman Modern akan meminta data tambahan jika diperlukan."},"personK":{"label":"Person K","birth":"30 Maret 1992 · 19:15 WIB · RS Pondok Indah, Jakarta","focus":"ASC Scorpio, Sun di Aries, Moon Aquarius, Mercury retrograde, Venus exalted di Pisces, karier/MC Cancer, dan fokus modern Pluto di House 1.","status":"Siap baca offline. Chiron belum tersedia; halaman Modern akan meminta data tambahan jika diperlukan."}};
+const EXAMPLE_CHART=EXAMPLE_CHARTS.personB;
+function symSign(s){return `<span class="symbol">${SIGN_SYMBOL[s]||''}</span>${s||'-'}`}
+function symPlanet(p){return `<span class="symbol">${PLANET_SYMBOL[p]||''}</span>${p||'-'}`}
+function t(label,key,ctx){return `<span class="term" onclick="openGuide('${ctx||'classic'}','${key||label}')">${label}</span>`}
+function showPage(page){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById('page-'+page).classList.add('active');document.querySelectorAll('#topNav button').forEach(b=>b.classList.toggle('active',b.dataset.page===page)); if(page==='classic') {lastReaderPage='classic'; renderClassic()} if(page==='modern'){lastReaderPage='modern'; renderModern()} if(page==='learn') renderLearn(); window.scrollTo({top:0,behavior:'smooth'});}
+function toggleCard(id){document.getElementById(id).classList.toggle('collapsed')}
+function openOnlyInput(id){['exampleCard','semiOfflineCard','jsonCard','manualInputCard'].forEach(x=>document.getElementById(x)?.classList.add('collapsed'));document.getElementById(id)?.classList.remove('collapsed'); if(id==='semiOfflineCard') document.getElementById('jsonCard')?.classList.remove('collapsed')}
+function manualTab(ev,id){document.querySelectorAll('.manual-tab').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');ev.currentTarget.parentElement.querySelectorAll('button').forEach(b=>b.classList.remove('active'));ev.currentTarget.classList.add('active')}
+function copyText(id){const el=document.getElementById(id);el.select();document.execCommand('copy')}
+function deg(p){return `${String(p.degree??0).padStart(2,'0')}°${String(p.minute??0).padStart(2,'0')}'`}
+function houseStrength(h){h=Number(h); if([1,4,7,10].includes(h)) return 'Angular'; if([2,5,8,11].includes(h)) return 'Succedent'; return 'Cadent'}
+function dignityOf(p){const d=DIGNITY[p.name]; if(!d) return 'Tidak dinilai klasik'; if(d.domicile.includes(p.sign)) return 'Domicile'; if(d.exaltation.includes(p.sign)) return 'Exaltation'; if(d.detriment.includes(p.sign)) return 'Detriment'; if(d.fall.includes(p.sign)) return 'Fall'; return 'Peregrine / tidak dalam dignity besar'}
+function planetByName(n){return [...(currentChart?.planets||[]),...(currentChart?.modernPoints||[])].find(p=>p.name===n)}
+function houseByNum(n){return (currentChart?.houses||[]).find(h=>Number(h.house)===Number(n))}
+
+function getSelectedExampleKey(){return document.getElementById('exampleSelect')?.value||'personA'}
+function renderExamplePreview(){
+  const key=getSelectedExampleKey(); const meta=EXAMPLE_META[key]||{}; const chart=EXAMPLE_CHARTS[key];
+  const valChart=currentChart; currentChart=chart; const val=validateChart(); currentChart=valChart;
+  const modernNote=val.modernMissing.length?`<span class="pill warn">Modern kurang: ${val.modernMissing.join(', ')}</span>`:`<span class="pill good">Modern lengkap</span>`;
+  const html=`<div class="grid two"><div><b>${meta.label||key}</b><br><span class="small muted">${meta.birth||''}</span><br><b>Fokus latihan:</b> ${meta.focus||'-'}</div><div><span class="pill good">Klasik siap</span> ${modernNote}<br><span class="small muted">${meta.status||''}</span></div></div>`;
+  const el=document.getElementById('examplePreview'); if(el) el.innerHTML=html;
+}
+function useSelectedExample(target){
+  const key=getSelectedExampleKey(); const chart=EXAMPLE_CHARTS[key];
+  if(!chart){alert('Contoh belum tersedia.');return}
+  currentChart=structuredClone(chart);
+  fillManualFromChart(currentChart);
+  validateAndRender(`${EXAMPLE_META[key]?.label||'Contoh'} berhasil dimuat. Nama asli disembunyikan.`);
+  renderExamplePreview();
+  if(target==='classic') showPage('classic'); else if(target==='modern') showPage('modern'); else showPage('input');
+}
+function fillPromptFromSelectedExample(){
+  const key=getSelectedExampleKey(); const meta=EXAMPLE_META[key]||{}; const chart=EXAMPLE_CHARTS[key]; if(!chart)return;
+  const info=chart.info||{}; openOnlyInput('semiOfflineCard');
+  birthName.value=meta.label||info.owner||''; birthDate.value=info.birthDate||''; birthTime.value=(info.birthTime||'').replace(' WIB',''); birthTimezone.value=info.timezone||'WIB / UTC+7'; birthPlace.value=info.birthplace||''; birthProvince.value=''; birthCountry.value='Indonesia'; birthZodiac.value=info.zodiac||'Tropical'; birthHouseSystem.value=info.houseSystem||'Placidus'; birthDataScope.value='Klasik + Modern'; birthCoord.value=info.coordinates||''; makePrompt();
+}
+function useExampleChart(){useSelectedExample()}
+function resetAll(){currentChart=null;document.querySelectorAll('input,textarea').forEach(i=>{if(!['mZodiac','mHouseSystem','birthCountry'].includes(i.id))i.value=''});initInputs();validateAndRender('Semua data direset.');renderClassic();renderModern()}
+function makePrompt(){const scope=document.getElementById('birthDataScope').value;const modern=scope.includes('Modern');const prompt=`Anda adalah pembuat data natal chart. Buat data natal chart dalam JSON valid saja, tanpa kalimat luar.\n\nData lahir:\nNama: ${birthName.value||'-'}\nTanggal lahir: ${birthDate.value||'-'}\nJam lahir: ${birthTime.value||'-'}\nZona waktu: ${birthTimezone.value}\nTempat lahir: ${birthPlace.value||'-'}, ${birthProvince.value||'-'}, ${birthCountry.value||'-'}\nKoordinat: ${birthCoord.value||'jika bisa tentukan'}\nZodiac: ${birthZodiac.value}\nHouse system: ${birthHouseSystem.value}\n\nKeluarkan JSON dengan struktur:\n{\n  "chartInfo":{"name":"","owner":"","birthDate":"","birthTime":"","timezone":"","birthplace":"","coordinates":"","zodiac":"","houseSystem":"","source":""},\n  "houses":[{"house":1,"label":"ASC","sign":"Taurus","degree":13,"minute":1}],\n  "planets":[{"name":"Sun","sign":"Virgo","degree":4,"minute":58,"house":4,"motion":"Direct"}],\n  "modernPoints":[${modern?'{"name":"Uranus","sign":"","degree":0,"minute":0,"house":1,"motion":"Direct"}':' '}],\n  "aspects":[{"planetA":"Sun","aspect":"Conjunction","planetB":"Saturn","orb":"1°","status":"Applying/Separating/Unknown"}]\n}\n\nWajib isi 12 houses dan 7 planet klasik. ${modern?'Sertakan Uranus, Neptune, Pluto, Chiron, North Node, South Node, dan Lilith jika tersedia.':'Data modern tidak wajib.'} Jangan mengarang jika data tidak pasti; isi motion/status "Tidak tahu" jika tidak diketahui.`;generatedPrompt.value=prompt;document.getElementById('jsonCard').classList.remove('collapsed')}
+function processJson(){try{const obj=JSON.parse(jsonInput.value);currentChart=normalizeChart(obj);fillManualFromChart(currentChart);validateAndRender('JSON berhasil diproses.')}catch(e){jsonStatus.innerHTML=`<div class="status err">Format JSON belum sesuai: ${e.message}</div>`}}
+function normalizeChart(o){return {info:o.chartInfo||o.info||{},houses:o.houses||[],planets:o.planets||[],modernPoints:o.modernPoints||o.optionalPoints||[],aspects:o.aspects||[]}}
+function processManual(){currentChart=readManualChart();validateAndRender('Data manual berhasil diproses.')}
+function validateAndRender(msg){const val=validateChart();let html=msg?`<div class="status ok">${msg}</div>`:'';html+=`<div class="grid two"><div class="status ${val.classicOk?'ok':'err'}"><b>Data Klasik</b><br>${val.classicMsgs.join('<br>')}</div><div class="status ${val.modernMissing.length?'warn':'ok'}"><b>Data Modern</b><br>${val.modernMsgs.join('<br>')}</div></div>`;validationOutput.innerHTML=html;renderClassic();renderModern()}
+function validateChart(){const msgs=[]; if(!currentChart){return {classicOk:false,classicMsgs:['✗ Belum ada data chart'],modernMissing:REQUIRED_MODERN,modernMsgs:['⚠ Belum ada data chart']}}; const h=(currentChart.houses||[]).length; const cp=(currentChart.planets||[]).filter(p=>CLASSIC_PLANETS.includes(p.name)).length; const classicOk=h>=12 && cp>=7; msgs.push((h>=12?'✓':'✗')+' 12 house '+(h>=12?'tersedia':'belum lengkap'));msgs.push((cp>=7?'✓':'✗')+' 7 planet klasik '+(cp>=7?'tersedia':'belum lengkap'));msgs.push((currentChart.aspects||[]).length?'✓ Aspect tersedia':'⚠ Aspect belum tersedia, pembacaan dasar tetap bisa berjalan');const modernNames=(currentChart.modernPoints||[]).map(p=>p.name);const missing=REQUIRED_MODERN.filter(n=>!modernNames.includes(n));let mm=REQUIRED_MODERN.map(n=>(modernNames.includes(n)?'✓ ':'✗ ')+n); if((currentChart.modernPoints||[]).some(p=>p.name==='Lilith')) mm.push('✓ Lilith tersedia (opsional)'); else mm.push('⚠ Lilith opsional belum diisi'); return {classicOk,classicMsgs:msgs,modernMissing:missing,modernMsgs:mm}}
+function renderDataComplete(ctx='classic'){if(!currentChart)return `<div class="output-placeholder">Belum ada chart. Masuk ke halaman Input Data Chart.</div>`;const info=currentChart.info||{};return `<div class="card"><div class="card-head"><div class="card-title"><h3>Data Natal Chart Lengkap</h3><span class="small muted">Semua istilah dapat diklik untuk membuka guiding.</span></div></div><div class="card-body"><div class="grid two"><div><b>Nama Chart:</b> ${info.name||'-'}<br><b>Pemilik:</b> ${info.owner||'-'}<br><b>Tanggal:</b> ${info.birthDate||'-'}<br><b>Jam:</b> ${info.birthTime||'-'}<br><b>Tempat:</b> ${info.birthplace||'-'}</div><div><b>Zona:</b> ${info.timezone||'-'}<br><b>Koordinat:</b> ${info.coordinates||'-'}<br><b>Zodiac:</b> ${t(info.zodiac||'Tropical','Tropical',ctx)}<br><b>House System:</b> ${t(info.houseSystem||'House System','House System',ctx)}<br><b>Sumber:</b> ${info.source||'-'}</div></div><h4>12 House</h4>${houseTable(ctx)}<h4>Planet Klasik</h4>${planetTable(currentChart.planets||[],ctx)}${(currentChart.modernPoints||[]).length?`<h4>Planet/Titik Modern</h4>${planetTable(currentChart.modernPoints||[],ctx)}`:''}<h4>Aspek</h4>${aspectTable(ctx)}</div></div>`}
+function houseTable(ctx){return `<div class="table-wrap"><table><thead><tr><th>House</th><th>Sign</th><th>Derajat</th><th>Lord</th><th>Keterangan</th></tr></thead><tbody>${(currentChart.houses||[]).map(h=>`<tr><td>${t('House '+h.house,'House '+h.house,ctx)} ${h.label?`/ ${t(h.label,h.label,ctx)}`:''}</td><td>${t(symSign(h.sign),h.sign,ctx)}</td><td>${deg(h)}</td><td>${t(symPlanet(SIGN_RULER[h.sign]),SIGN_RULER[h.sign],ctx)}</td><td>${HOUSE_MEANINGS[h.house]||''}</td></tr>`).join('')}</tbody></table></div>`}
+function planetTable(arr,ctx){return `<div class="table-wrap"><table><thead><tr><th>Planet/Titik</th><th>Sign</th><th>Derajat</th><th>House</th><th>Gerak</th><th>Kondisi</th></tr></thead><tbody>${arr.map(p=>`<tr><td>${t(symPlanet(p.name),p.name,ctx)}</td><td>${t(symSign(p.sign),p.sign,ctx)}</td><td>${deg(p)}</td><td>${t('House '+p.house,'House '+p.house,ctx)}</td><td>${t(p.motion||'Tidak tahu',p.motion||'Direct',ctx)}</td><td>${CLASSIC_PLANETS.includes(p.name)?t(dignityOf(p),dignityOf(p),ctx):t('Modern point','Modern',ctx)}</td></tr>`).join('')}</tbody></table></div>`}
+function aspectTable(ctx){const aspects=currentChart.aspects||[];if(!aspects.length)return `<div class="status warn">Data aspek belum tersedia. Pembacaan tetap bisa dilakukan dari house, planet, lord house, dan dignity.</div>`;return `<div class="table-wrap"><table><thead><tr><th>Planet A</th><th>Aspect</th><th>Planet B</th><th>Orb</th><th>Status</th></tr></thead><tbody>${aspects.map(a=>`<tr><td>${t(symPlanet(a.planetA),a.planetA,ctx)}</td><td>${t((ASPECT_SYMBOL[a.aspect]||'')+' '+a.aspect,a.aspect,ctx)}</td><td>${t(symPlanet(a.planetB),a.planetB,ctx)}</td><td>${t(a.orb||'Orb','Orb',ctx)}</td><td>${t(a.status||'Tidak tahu',a.status||'Aspect',ctx)}</td></tr>`).join('')}</tbody></table></div>`}
+function renderTechnicalClassic(){if(!currentChart)return '';const lordRows=(currentChart.houses||[]).map(h=>`<tr><td>${t('House '+h.house,'House '+h.house,'classic')}</td><td>${t(symSign(h.sign),h.sign,'classic')}</td><td>${t(symPlanet(SIGN_RULER[h.sign]),SIGN_RULER[h.sign],'classic')}</td><td>${HOUSE_MEANINGS[h.house]}</td></tr>`).join('');const planets=currentChart.planets||[];const groups={Angular:[],Succedent:[],Cadent:[]};planets.forEach(p=>groups[houseStrength(p.house)].push(p));return `<div class="card"><div class="card-head"><div class="card-title"><h3>Hasil Teknis Klasik</h3><span class="small muted">Fokus pada lord house, dignity, benefic/malefic, dan kekuatan house.</span></div></div><div class="card-body"><h4>Lord tiap house</h4><div class="table-wrap"><table><thead><tr><th>House</th><th>Sign</th><th>Lord</th><th>Topik</th></tr></thead><tbody>${lordRows}</tbody></table></div><h4>Kekuatan planet berdasarkan house</h4><div class="grid three">${Object.keys(groups).map(k=>`<div class="status"><b>${t(k,k,'classic')}</b><br>${groups[k].length?groups[k].map(p=>`${t(symPlanet(p.name),p.name,'classic')} di ${t('House '+p.house,'House '+p.house,'classic')}`).join('<br>'):'-'}</div>`).join('')}</div><h4>Essential dignity</h4>${planetTable(planets,'classic')}<div class="callout warn"><b>Lanjutan Klasik:</b> Triplicity (kelompok unsur), Term/Bound (batas derajat), Face/Decan (wajah/dekan), dan Reception (penerimaan) tersedia di Belajar Dasar dan guiding. Bagian ini untuk pembelajar yang sudah mulai lanjut.</div></div></div>`}
+function renderTechnicalModern(){if(!currentChart)return '';const all=[...(currentChart.planets||[]),...(currentChart.modernPoints||[])];const elems={Fire:0,Earth:0,Air:0,Water:0};all.forEach(p=>{const e=elementOf(p.sign); if(e) elems[e]++});return `<div class="card"><div class="card-head"><div class="card-title"><h3>Hasil Teknis Modern</h3><span class="small muted">Fokus pada psikologi chart, planet modern, pola elemen, dan pengembangan diri.</span></div></div><div class="card-body"><h4>Planet dan titik modern</h4>${planetTable(currentChart.modernPoints||[],'modern')}<h4>Keseimbangan elemen sederhana</h4><div class="grid four">${Object.keys(elems).map(e=>`<div class="status"><b>${t(e,e,'modern')}</b><br>${elems[e]} titik</div>`).join('')}</div><div class="callout">Modern membaca Uranus sebagai perubahan/kebebasan, Neptune sebagai imajinasi/spiritualitas/kabut, Pluto sebagai transformasi/kuasa, Chiron sebagai luka-penyembuhan, dan Node sebagai arah perkembangan.</div></div></div>`}
+function topicSelector(ctx){return `<div class="card"><div class="card-head"><div class="card-title"><h3>Pilih Jenis Bacaan</h3><span class="small muted">Satu topik tampil agar pemula tidak bingung.</span></div></div><div class="card-body"><select id="topic-${ctx}" onchange="${ctx==='classic'?'renderClassicInterpretation()':'renderModernInterpretation()'}">${Object.keys(TOPICS).map(k=>`<option value="${k}">${TOPICS[k].label}</option>`).join('')}</select><div id="interp-${ctx}" style="margin-top:12px"></div></div></div>`}
+function renderClassic(){const el=classicLeft;if(!currentChart){el.innerHTML=`<div class="output-placeholder">Belum ada data chart. Silakan buka halaman <b>Input Data Chart</b>.</div><button class="btn primary" onclick="showPage('input')">Ke Input Data Chart</button>`;return}el.innerHTML=renderDataComplete('classic')+renderTechnicalClassic()+topicSelector('classic')+noteCard('classic');renderClassicInterpretation()}
+function renderModern(){const el=modernLeft;if(!currentChart){el.innerHTML=`<div class="output-placeholder">Belum ada data chart. Silakan buka halaman <b>Input Data Chart</b>.</div><button class="btn primary" onclick="showPage('input')">Ke Input Data Chart</button>`;return}const val=validateChart();el.innerHTML=(val.modernMissing.length?modernMissingCard(val.modernMissing):`<div class="status ok">Data modern utama tersedia.</div>`)+renderDataComplete('modern')+renderTechnicalModern()+topicSelector('modern')+noteCard('modern');renderModernMissingInputs();renderModernInterpretation()}
+function modernMissingCard(missing){return `<div class="card"><div class="card-head"><div class="card-title"><h3>Data Modern Belum Lengkap</h3><span class="small muted">Lengkapi data berikut agar pembacaan modern lebih utuh.</span></div></div><div class="card-body"><div class="status warn">Yang belum tersedia: <b>${missing.join(', ')}</b></div><p>Silakan isi tambahan di bawah. Setelah klik <b>Proses Data Modern</b>, pembacaan modern akan diperbarui.</p><div id="modernMissingInputs" class="table-wrap"></div><div class="btn-row" style="margin-top:10px"><button class="btn primary" onclick="processModernInline()">Proses Data Modern</button><button class="btn secondary" onclick="openGuide('modern','Modern')">Pelajari Planet Modern</button></div></div></div>`}
+function renderClassicInterpretation(){if(!currentChart)return;const key=document.getElementById('topic-classic')?.value||'general';document.getElementById('interp-classic').innerHTML=interpretation(key,'classic')}
+function renderModernInterpretation(){if(!currentChart)return;const key=document.getElementById('topic-modern')?.value||'general';document.getElementById('interp-modern').innerHTML=interpretation(key,'modern')}
+function interpretation(key,ctx){const top=TOPICS[key];if(!top.house)return generalInterp(ctx);const h=houseByNum(top.house);const lord=SIGN_RULER[h.sign];const lp=planetByName(lord);const cond=lp?dignityOf(lp):'data planet lord belum ditemukan';const modeLabel=ctx==='classic'?'Klasik':'Modern';return `<div class="topic-box"><h3>${modeLabel}: ${top.title}</h3><h4>Data yang dibaca</h4><p>${top.title} dibaca dari ${t('House '+top.house,'House '+top.house,ctx)}. House ini berada di ${t(symSign(h.sign),h.sign,ctx)}, maka lord/penguasa topiknya adalah ${t(symPlanet(lord),lord,ctx)}.</p><h4>Formula bacaan</h4><ol><li>Topik = ${t('House '+top.house,'House '+top.house,ctx)}</li><li>Penguasa topik = ${t('Lord House','Lord House',ctx)} ${top.house}, yaitu ${t(lord,lord,ctx)}</li><li>Kualitas topik = kondisi lord: ${t(cond,cond,ctx)}</li><li>Arah topik = house tempat lord berada: ${lp?t('House '+lp.house,'House '+lp.house,ctx):'-'}</li><li>Bantuan/hambatan = aspek kepada lord jika tersedia.</li></ol><h4>Interpretasi ${modeLabel}</h4>${ctx==='classic'?classicTopicText(top,h,lord,lp,cond):modernTopicText(top,h,lord,lp,cond)}<h4>Kesimpulan belajar</h4><p>Jangan membaca satu posisi saja. Gabungkan house, lord, dignity, house tempat lord berada, dan aspek. Klik istilah berwarna ungu untuk membuka guiding.</p></div>`}
+function classicTopicText(top,h,lord,lp,cond){return `<p>Dalam pendekatan klasik, ${top.title} terutama dihakimi melalui ${t('Lord House','Lord House','classic')}. Jika ${lord} kuat secara ${t('Essential Dignity','Essential Dignity','classic')} dan memiliki kekuatan aksidental, topik lebih mudah bekerja. Jika ${lord} lemah, ${t('Retrograde','Retrograde','classic')}, ${t('Cadent','Cadent','classic')}, atau menerima aspek sulit, topik tidak hilang, tetapi membutuhkan usaha, waktu, koreksi, atau mediator.</p><p>Di chart ini, ${lp?`${lord} berada di ${t(symSign(lp.sign),lp.sign,'classic')} ${deg(lp)} pada ${t('House '+lp.house,'House '+lp.house,'classic')}. Posisi ini bernilai ${t(cond,cond,'classic')}.`: 'data lord belum lengkap.'}</p><p><b>Contoh kalimat:</b> “Tema ${top.title} bekerja melalui ${lord}. Karena kondisi ${lord} menjadi kunci, pembaca harus melihat kualitas planet itu sebelum memberi kesimpulan.”</p>`}
+function modernTopicText(top,h,lord,lp,cond){return `<p>Dalam pendekatan modern, ${top.title} tetap memakai house dan planet, tetapi bahasanya lebih psikologis: pola kebutuhan, pengalaman batin, cara berkembang, dan potensi kesadaran. Planet modern yang terkait aspek atau berada di house topik memberi warna tambahan.</p><p>House ${top.house} di ${h.sign} memberi gaya psikologis ${signPsych(h.sign)}. Lord klasiknya tetap ${lord}, namun modern juga melihat planet modern yang menonjol, aspek luar, dan pola elemen.</p><p><b>Contoh kalimat:</b> “Tema ${top.title} bukan hanya peristiwa luar, tetapi pola pengalaman batin yang bisa dipahami dan dikembangkan secara sadar.”</p>`}
+function generalInterp(ctx){const asc=houseByNum(1),mc=houseByNum(10);const ascLord=SIGN_RULER[asc?.sign],mcLord=SIGN_RULER[mc?.sign];return `<div class="topic-box"><h3>${ctx==='classic'?'Klasik':'Modern'}: Bacaan Umum</h3><h4>Data yang dibaca</h4><p>Bacaan umum dimulai dari ${t('ASC','ASC',ctx)}, ${t('Lord Ascendant','Lord Ascendant',ctx)}, ${t('Moon','Moon',ctx)}, ${t('Sun','Sun',ctx)}, dan ${t('MC','MC',ctx)}.</p><h4>Penilaian teknis</h4><p>ASC berada di ${t(symSign(asc?.sign),asc?.sign,ctx)}, sehingga Lord Ascendant adalah ${t(symPlanet(ascLord),ascLord,ctx)}. MC berada di ${t(symSign(mc?.sign),mc?.sign,ctx)}, sehingga karier/reputasi dikaitkan dengan ${t(symPlanet(mcLord),mcLord,ctx)}.</p><h4>Interpretasi</h4>${ctx==='classic'?`<p>Dalam klasik, diri tidak cukup dibaca dari sign ASC. Kunci utamanya adalah kondisi Lord Ascendant: sign, house, dignity, kekuatan angular/cadent, dan aspek.</p>`:`<p>Dalam modern, bacaan umum menekankan identitas sadar (Sun), kebutuhan emosional (Moon), cara tampil (ASC), serta pola perkembangan dari planet modern jika datanya tersedia.</p>`}<h4>Kesimpulan belajar</h4><p>Mulai dari struktur besar dulu. Setelah itu pilih topik house tertentu agar pembacaan tidak melebar.</p></div>`}
+function noteCard(ctx){return `<div class="card"><div class="card-head"><div class="card-title"><h3>Catatan Belajar</h3><span class="small muted">Muncul setelah chart diproses. Isi setelah membaca hasil.</span></div></div><div class="card-body"><label>Apa yang saya pahami dari chart ini?</label><textarea placeholder="Tulis pemahaman Anda..."></textarea><label>Istilah yang ingin saya pelajari lagi</label><textarea placeholder="Misalnya: Lord House, Fall, Cadent, Retrograde..."></textarea><div class="btn-row" style="margin-top:10px"><button class="btn secondary" onclick="window.print()">Cetak / Simpan PDF</button></div></div></div>`}
+function elementOf(s){return {Aries:'Fire',Leo:'Fire',Sagittarius:'Fire',Taurus:'Earth',Virgo:'Earth',Capricorn:'Earth',Gemini:'Air',Libra:'Air',Aquarius:'Air',Cancer:'Water',Scorpio:'Water',Pisces:'Water'}[s]}
+function signPsych(s){return {Aries:'langsung, berani, ingin memulai',Taurus:'stabil, konkret, mencari keamanan',Gemini:'komunikatif, fleksibel, ingin memahami',Cancer:'emosional, protektif, berorientasi rasa aman',Leo:'ekspresif, kreatif, ingin bersinar',Virgo:'analitis, memperbaiki, ingin berguna',Libra:'relasional, seimbang, mencari harmoni',Scorpio:'intens, mendalam, transformasional',Sagittarius:'mencari makna, ilmu, dan kebebasan',Capricorn:'terstruktur, realistis, bertahap',Aquarius:'orisinal, sosial, sistemik',Pisces:'imajinatif, empatik, spiritual'}[s]||'sesuai kualitas sign'}
+function initInputs(){renderHouseInputs();renderPlanetInputs('classicPlanetInputs',CLASSIC_PLANETS,'p');renderPlanetInputs('modernPlanetInputs',MODERN_POINTS,'mpt');renderAspectInputs();renderModernMissingInputs()}
+function signSelect(id,val=''){return `<select id="${id}">${SIGNS.map(s=>`<option value="${s}" ${s===val?'selected':''}>${SIGN_SYMBOL[s]} ${s}</option>`).join('')}</select>`}
+function renderHouseInputs(){houseInputs.innerHTML=`<table><thead><tr><th>House</th><th>Sign</th><th>Derajat</th><th>Menit</th></tr></thead><tbody>${Array.from({length:12},(_,i)=>i+1).map(n=>`<tr><td>House ${n} ${n===1?'/ ASC':n===4?'/ IC':n===7?'/ DESC':n===10?'/ MC':''}</td><td>${signSelect('h-sign-'+n)}</td><td><input id="h-deg-${n}" type="number" min="0" max="29"></td><td><input id="h-min-${n}" type="number" min="0" max="59"></td></tr>`).join('')}</tbody></table>`}
+function renderPlanetInputs(target,arr,prefix){document.getElementById(target).innerHTML=`<table><thead><tr><th>Planet/Titik</th><th>Sign</th><th>Derajat</th><th>Menit</th><th>House</th><th>Gerak</th></tr></thead><tbody>${arr.map(n=>`<tr><td>${PLANET_SYMBOL[n]||''} ${n}</td><td>${signSelect(`${prefix}-sign-${n}`)}</td><td><input id="${prefix}-deg-${n}" type="number" min="0" max="29"></td><td><input id="${prefix}-min-${n}" type="number" min="0" max="59"></td><td><input id="${prefix}-house-${n}" type="number" min="1" max="12"></td><td><select id="${prefix}-motion-${n}"><option>Tidak tahu</option><option>Direct</option><option>Retrograde</option></select></td></tr>`).join('')}</tbody></table>`}
+function renderAspectInputs(){aspectInputs.innerHTML=`<table><thead><tr><th>Planet A</th><th>Aspect</th><th>Planet B</th><th>Orb</th><th>Status</th></tr></thead><tbody>${Array.from({length:aspectRows},(_,i)=>`<tr><td><input id="a-pa-${i}" placeholder="Moon"></td><td><select id="a-as-${i}"><option>Tidak tahu</option><option>Conjunction</option><option>Sextile</option><option>Square</option><option>Trine</option><option>Opposition</option></select></td><td><input id="a-pb-${i}" placeholder="Jupiter"></td><td><input id="a-orb-${i}" placeholder="3°"></td><td><select id="a-st-${i}"><option>Tidak tahu</option><option>Applying</option><option>Separating</option></select></td></tr>`).join('')}</tbody></table>`}
+function addAspectRow(){aspectRows++;renderAspectInputs()}
+function renderModernMissingInputs(){const el=document.getElementById('modernMissingInputs'); if(!el)return; el.innerHTML=`<table><thead><tr><th>Planet Modern</th><th>Sign</th><th>Derajat</th><th>Menit</th><th>House</th><th>Gerak</th></tr></thead><tbody>${REQUIRED_MODERN.map(n=>`<tr><td>${PLANET_SYMBOL[n]} ${n}</td><td>${signSelect(`inline-sign-${n}`)}</td><td><input id="inline-deg-${n}" type="number" min="0" max="29"></td><td><input id="inline-min-${n}" type="number" min="0" max="59"></td><td><input id="inline-house-${n}" type="number" min="1" max="12"></td><td><select id="inline-motion-${n}"><option>Tidak tahu</option><option>Direct</option><option>Retrograde</option></select></td></tr>`).join('')}</tbody></table>`}
+function readManualChart(){const info={name:mName.value,owner:mOwner.value,birthDate:mBirthDate.value,birthTime:mBirthTime.value,timezone:mTimezone.value,birthplace:mBirthplace.value,coordinates:mCoordinates.value,zodiac:mZodiac.value,houseSystem:mHouseSystem.value,source:mSource.value};const houses=Array.from({length:12},(_,i)=>{const n=i+1;return{house:n,label:n===1?'ASC':n===4?'IC':n===7?'DESC':n===10?'MC':'',sign:document.getElementById('h-sign-'+n).value,degree:+(document.getElementById('h-deg-'+n).value||0),minute:+(document.getElementById('h-min-'+n).value||0)}});const planets=readPlanetSet(CLASSIC_PLANETS,'p',true);const modernPoints=readPlanetSet(MODERN_POINTS,'mpt',false);const aspects=[];for(let i=0;i<aspectRows;i++){const pa=document.getElementById('a-pa-'+i)?.value?.trim();const pb=document.getElementById('a-pb-'+i)?.value?.trim();if(pa&&pb)aspects.push({planetA:pa,aspect:document.getElementById('a-as-'+i).value,planetB:pb,orb:document.getElementById('a-orb-'+i).value,status:document.getElementById('a-st-'+i).value})}return{info,houses,planets,modernPoints,aspects}}
+function readPlanetSet(arr,prefix,required){return arr.map(n=>({name:n,sign:document.getElementById(`${prefix}-sign-${n}`).value,degree:+(document.getElementById(`${prefix}-deg-${n}`).value||0),minute:+(document.getElementById(`${prefix}-min-${n}`).value||0),house:+(document.getElementById(`${prefix}-house-${n}`).value||0),motion:document.getElementById(`${prefix}-motion-${n}`).value})).filter(p=>required||p.house||p.degree||p.minute)}
+function fillManualFromChart(c){const info=c.info||{};mName.value=info.name||'';mOwner.value=info.owner||'';mBirthDate.value=info.birthDate||'';mBirthTime.value=info.birthTime||'';mTimezone.value=info.timezone||'';mBirthplace.value=info.birthplace||'';mCoordinates.value=info.coordinates||'';mZodiac.value=info.zodiac||'Tropical';mHouseSystem.value=info.houseSystem||'Placidus';mSource.value=info.source||'';(c.houses||[]).forEach(h=>{if(document.getElementById('h-sign-'+h.house)){document.getElementById('h-sign-'+h.house).value=h.sign;document.getElementById('h-deg-'+h.house).value=h.degree;document.getElementById('h-min-'+h.house).value=h.minute}});fillPlanetSet(c.planets||[],'p');fillPlanetSet(c.modernPoints||[],'mpt')}
+function fillPlanetSet(arr,prefix){arr.forEach(p=>{['sign','deg','min','house','motion'].forEach(k=>{});const id=`${prefix}-sign-${p.name}`;if(document.getElementById(id)){document.getElementById(id).value=p.sign;document.getElementById(`${prefix}-deg-${p.name}`).value=p.degree;document.getElementById(`${prefix}-min-${p.name}`).value=p.minute;document.getElementById(`${prefix}-house-${p.name}`).value=p.house;document.getElementById(`${prefix}-motion-${p.name}`).value=p.motion||'Tidak tahu'}})}
+function processModernInline(){if(!currentChart)return;const existing=currentChart.modernPoints||[];REQUIRED_MODERN.forEach(n=>{const house=+(document.getElementById(`inline-house-${n}`)?.value||0);if(house){const obj={name:n,sign:document.getElementById(`inline-sign-${n}`).value,degree:+(document.getElementById(`inline-deg-${n}`).value||0),minute:+(document.getElementById(`inline-min-${n}`).value||0),house,motion:document.getElementById(`inline-motion-${n}`).value};const ix=existing.findIndex(p=>p.name===n); if(ix>=0) existing[ix]=obj; else existing.push(obj)}});currentChart.modernPoints=existing;validateAndRender('Data modern diperbarui.');renderModern()}
+function openGuide(ctx,key){lastReaderPage=ctx;const target=ctx==='modern'?modernGuide:classicGuide;target.innerHTML=guideHTML(ctx,key);target.querySelector('.guide-card')?.classList.add('open')}
+function guideHTML(ctx,key){const k=String(key).replace(/<[^>]*>/g,'').trim();const g=getGuide(ctx,k);return `<div class="guide-card open"><div class="guide-title" onclick="this.parentElement.classList.toggle('open')"><span>${g.title}</span><span>Buka | Tutup</span></div><div class="guide-content">${g.body}<a class="btn link anchor-link" href="#" onclick="goLearn('${g.anchor}','${ctx}');return false;">Baca Materi Lengkap →</a></div></div>`}
+function goLearn(anchor,ctx){lastReaderPage=ctx;showPage('learn');learnBackBar.classList.add('show');setTimeout(()=>document.getElementById(anchor)?.scrollIntoView({behavior:'smooth',block:'start'}),80)}
+function backToPreviousReader(){learnBackBar.classList.remove('show');showPage(lastReaderPage||'classic')}
+function getGuide(ctx,key){
+  let low=String(key||'').toLowerCase();
+  function ret(title,body,anchor){return {title,body,anchor};}
+  if(['asc','ascendant','lord ascendant'].some(x=>low.includes(x))){
+    return ret('ASC / Ascendant (Titik Terbit)',`<p>ASC adalah pintu masuk chart dan awal House 1. Ia menunjukkan tubuh, cara hadir ke dunia, respons awal, dan warna luar kepribadian.</p><h4>Cara membaca</h4><ol><li>Lihat sign ASC.</li><li>Tentukan Lord Ascendant.</li><li>Baca kondisi Lord Ascendant: dignity, house, angular/cadent, gerak, aspek.</li></ol><p><b>Contoh:</b> ASC Taurus berarti Venus menjadi Lord Ascendant. Maka diri tidak cukup dibaca “Taurus stabil”, tetapi harus melihat Venus berada di mana dan bagaimana kondisinya.</p>`, 'angle-asc');
+  }
+  if(['desc','dc','descendant','lord descendant'].some(x=>low.includes(x))){
+    return ret('DESC / Descendant (Titik Terbenam)',`<p>DESC adalah titik berlawanan ASC dan awal House 7. Ia dipakai untuk pasangan, relasi, lawan terbuka, kontrak, dan publik.</p><p><b>Contoh:</b> DESC Scorpio membuat Mars menjadi Lord House 7. Relasi dibaca lewat kondisi Mars: apakah kuat, lemah, angular, cadent, atau beraspek sulit.</p>`, 'angle-desc');
+  }
+  if(['mc','medium'].some(x=>low.includes(x))){
+    return ret('MC / Medium Coeli (Puncak Langit)',`<p>MC adalah titik puncak chart yang berhubungan dengan reputasi, martabat, karier, dan hal yang terlihat publik.</p><p><b>Contoh:</b> MC Aquarius mengarahkan pembacaan karier ke Saturn dalam pendekatan klasik. Jika Saturn kuat, struktur karier lebih kokoh; jika Saturn lemah, karier butuh waktu dan disiplin.</p>`, 'angle-mc');
+  }
+  if(['ic','imum'].some(x=>low.includes(x))){
+    return ret('IC / Imum Coeli (Dasar Langit)',`<p>IC adalah dasar chart, berhubungan dengan rumah, keluarga, akar, fondasi batin, tanah, dan tempat kembali.</p><p><b>Contoh:</b> IC Leo membuat Sun penting untuk membaca rumah dan keluarga. Sun di house sulit dapat menunjukkan urusan rumah perlu perhatian khusus.</p>`, 'angle-ic');
+  }
+  if(low.includes('house system')||['placidus','whole sign','regiomontanus','porphyry','equal house','campanus','koch','tropical','sidereal'].some(x=>low.includes(x))){
+    return ret('House System (Sistem Rumah)',`<p>House system adalah metode membagi chart menjadi 12 house. Aplikasi ini membahas sistem Barat/Klasik/Modern, bukan Vedic/Jyotish.</p><h4>Contoh</h4><p>Whole Sign mudah untuk belajar topik dan lord house. Placidus populer dalam modern. Regiomontanus sering dipakai dalam tradisi horary/klasik. Porphyry membantu memahami pembagian dari sudut utama.</p><p>Jika planet berpindah house saat sistem diubah, pembacaan topik bisa ikut berubah.</p>`, 'house-system');
+  }
+  if(low.includes('retrograde')){
+    return ret('Retrograde (Gerak Mundur Tampak)',`<p>Retrograde berarti planet tampak bergerak mundur dari sudut pandang bumi. Dalam natal chart, ini sering dibaca sebagai proses internal, berulang, reflektif, atau tidak langsung.</p><p><b>Contoh Jupiter retrograde:</b> pencarian makna, guru, agama, atau rezeki lebih banyak diproses dari pengalaman batin. Jika Jupiter Lord House 2, uang/nilai diri perlu evaluasi dan pengulangan.</p><p><b>Contoh Saturn retrograde:</b> tanggung jawab dan batas dibangun dari dalam, sering matang setelah proses panjang.</p>`, 'retrograde');
+  }
+  if(['domicile','exaltation','detriment','fall','peregrine','essential dignity','accidental dignity','dignity'].some(x=>low.includes(x))){
+    return ret('Dignity (Martabat Planet)',`<p>Dignity menilai apakah planet nyaman dan kuat secara kualitas. Domicile berarti rumah sendiri. Exaltation berarti dimuliakan. Detriment berarti berlawanan rumah. Fall berarti jatuh. Peregrine berarti tidak punya martabat utama.</p><p><b>Contoh:</b> Venus di Virgo = Fall. Venus tetap bekerja, tetapi relasi/kesenangan lebih analitis, korektif, atau perlu belajar menerima ketidaksempurnaan.</p><p><b>Contoh:</b> Mars di Capricorn = Exaltation. Tindakan Mars lebih strategis, disiplin, dan terarah.</p>`, 'dignity');
+  }
+  if(['triplicity','term','bound','face','decan','reception'].some(x=>low.includes(x))){
+    return ret('Teknik Klasik Lanjutan',`<p><b>Catatan Lanjutan:</b> Bagian ini untuk pembelajar yang sudah menguasai planet, house, lord house, dan dignity dasar.</p><p>Triplicity (kelompok unsur), Term/Bound (batas derajat), Face/Decan (wajah/dekan), dan Reception (penerimaan) dipakai dalam astrologi klasik/Arab/medieval untuk memperhalus penilaian planet.</p><p><b>Contoh reception:</b> jika Mars berada di sign Venus dan Venus menerima Mars melalui dignity tertentu, hubungan dua planet dibaca lebih “mengenal” satu sama lain.</p>`, 'advanced-classic');
+  }
+  if(['angular','succedent','cadent'].some(x=>low.includes(x))){
+    return ret('Angular, Succedent, Cadent',`<p>Ini adalah kekuatan house secara aksidental. Angular: House 1,4,7,10 lebih tampil. Succedent: 2,5,8,11 stabil/menahan. Cadent: 3,6,9,12 lebih tidak langsung atau tersembunyi.</p><p><b>Contoh:</b> Moon di House 9 adalah cadent. Moon tetap penting, tetapi bekerja melalui ilmu, keyakinan, perjalanan jauh, atau pencarian makna, bukan langsung terlihat seperti di House 1/10.</p>`, 'angular');
+  }
+  if(['malefic','benefic','luminary'].some(x=>low.includes(x))){
+    return ret('Benefic / Malefic / Luminary',`<p>Benefic (pembawa manfaat) klasik: Venus dan Jupiter. Malefic (pembawa tantangan) klasik: Mars dan Saturn. Luminary (cahaya utama): Sun dan Moon.</p><p>Malefic tidak selalu buruk. Mars kuat bisa menjadi keberanian dan tindakan. Saturn kuat bisa menjadi disiplin dan struktur. Benefic lemah tidak selalu otomatis membantu.</p>`, 'benefic-malefic');
+  }
+  if(['conjunction','sextile','square','trine','opposition','aspect','applying','separating','orb'].some(x=>low.includes(x))){
+    return ret('Aspect (Aspek)',`<p>Aspect adalah hubungan geometris antarplanet. Conjunction menyatukan, sextile membuka peluang, square memberi tekanan, trine memberi aliran, opposition memberi polaritas.</p><p><b>Applying</b> berarti menuju exact; <b>Separating</b> berarti sudah melewati exact. Jika tidak tahu, baca jenis aspeknya dulu.</p><p><b>Contoh:</b> Moon square Mars dapat menunjukkan ketegangan antara rasa aman dan tindakan cepat.</p>`, 'aspect');
+  }
+  if(['uranus','neptune','pluto','chiron','north node','south node','lilith','modern'].some(x=>low.includes(x))){
+    return ret('Planet dan Titik Modern',`<p>Mode Modern memakai planet luar dan titik tambahan sebagai simbol psikologis dan perkembangan diri.</p><ul><li>Uranus: kebebasan, perubahan mendadak, orisinalitas.</li><li>Neptune: imajinasi, spiritualitas, kabut, idealisme.</li><li>Pluto: transformasi, kuasa, krisis mendalam.</li><li>Chiron: luka dan penyembuhan.</li><li>North Node / South Node: arah perkembangan dan pola lama.</li></ul>`, 'modern-planets');
+  }
+  if(CLASSIC_PLANETS.concat(MODERN_POINTS).some(p=>low.includes(p.toLowerCase()))){
+    return planetGuide(ctx,key);
+  }
+  if(low.includes('house ')){
+    const m=low.match(/house\s*(\d+)/);
+    if(m){
+      return ret(`House ${m[1]}`,`<p>House ${m[1]} membahas ${HOUSE_MEANINGS[m[1]]||'topik kehidupan tertentu'}.</p><h4>Cara membaca</h4><ol><li>Lihat sign pada cusp House ${m[1]}.</li><li>Tentukan Lord House.</li><li>Lihat kondisi Lord House: sign, dignity, house, aspek.</li><li>Lihat planet yang berada di House ${m[1]}.</li></ol><p><b>Contoh:</b> Jika House ${m[1]} kosong, topik tetap dibaca melalui Lord House-nya.</p>`,'house');
+    }
+    return ret('House (Rumah)',`<p>House adalah bidang kehidupan. 12 house menjawab “di bidang mana planet bekerja”.</p><p>House tidak cukup dibaca sendiri. Selalu cari Lord House.</p>`, 'house');
+  }
+  return ret(key,`<p>Istilah ini digunakan dalam pembacaan chart. Klik materi lengkap untuk melihat konteks lebih luas di Belajar Dasar.</p>`, 'glosarium');
+}
+function planetGuide(ctx,key){const p=CLASSIC_PLANETS.concat(MODERN_POINTS).find(x=>key.toLowerCase().includes(x.toLowerCase()))||key;const isModern=MODERN_POINTS.includes(p);return {title:`${symPlanet(p)} ${p}`,anchor:isModern?'modern-planets':'planet-sun',body:`<p>${planetMeaning(p,ctx)}</p><h4>Cara membaca ${p}</h4><ol><li>Lihat sign dan derajatnya.</li><li>Lihat house tempat ${p} berada.</li><li>${isModern?'Dalam modern, baca sebagai pola psikologis/perkembangan.':'Dalam klasik, nilai dignity dan apakah ia menjadi lord house.'}</li><li>Lihat aspek yang diterima.</li></ol><p><b>Contoh:</b> ${planetExample(p,ctx)}</p>`}}
+function planetMeaning(p,ctx){const m={Sun:'Sun (Matahari) menunjukkan kehendak, vitalitas simbolik, pusat kesadaran, kehormatan, dan otoritas.',Moon:'Moon (Bulan) menunjukkan tubuh, emosi, kebiasaan, ibu, rasa aman, dan alur harian.',Mercury:'Mercury (Merkurius) menunjukkan pikiran, bahasa, dagang, tulisan, data, dan belajar.',Venus:'Venus menunjukkan cinta, relasi, nilai, kesenangan, seni, harmoni, dan kesepakatan.',Mars:'Mars menunjukkan tindakan, keberanian, konflik, luka, tenaga, dan kompetisi.',Jupiter:'Jupiter menunjukkan pertumbuhan, ilmu, guru, agama, rezeki, makna, dan perlindungan.',Saturn:'Saturn (Saturnus) menunjukkan batas, disiplin, waktu, struktur, tanggung jawab, dan kematangan.',Uranus:'Uranus dalam modern menunjukkan kebebasan, perubahan mendadak, inovasi, dan pola yang tidak biasa.',Neptune:'Neptune dalam modern menunjukkan imajinasi, mimpi, spiritualitas, idealisme, kabut, dan pelarutan batas.',Pluto:'Pluto dalam modern menunjukkan transformasi, kuasa, krisis mendalam, kontrol, dan regenerasi.',Chiron:'Chiron dalam modern menunjukkan luka, proses penyembuhan, dan kebijaksanaan dari pengalaman luka.','North Node':'North Node (Node Utara) sering dibaca modern sebagai arah perkembangan dan pembelajaran jiwa.','South Node':'South Node (Node Selatan) sering dibaca modern sebagai pola lama, kenyamanan lama, atau kebiasaan yang perlu disadari.',Lilith:'Lilith adalah titik modern opsional; maknanya tidak seragam di semua tradisi dan sebaiknya dibaca sebagai materi lanjutan.'};return m[p]||'Planet/titik ini perlu dibaca sesuai konteks chart.'}
+function planetExample(p,ctx){const e={Jupiter:'Jupiter retrograde di House 10 dapat menunjukkan pencarian makna dan pertumbuhan karier yang tidak langsung, tetapi matang lewat pengalaman.',Saturn:'Saturn sebagai Lord MC dapat menunjukkan karier yang tumbuh lewat waktu, tanggung jawab, dan struktur.',Venus:'Venus fall di Virgo dapat membuat relasi/kesenangan diekspresikan lewat analisis, pelayanan, atau koreksi.',Mars:'Mars exaltation di Capricorn menunjukkan tindakan yang strategis dan disiplin.',Uranus:'Uranus di House 10 modern dapat menunjukkan jalan karier yang tidak biasa, teknologi, perubahan mendadak, atau kebutuhan kebebasan publik.',Neptune:'Neptune di House 7 modern dapat menunjukkan idealisasi relasi, empati tinggi, tetapi perlu batas jelas.',Pluto:'Pluto di House 4 modern dapat menunjukkan transformasi mendalam pada keluarga/akar batin.',Chiron:'Chiron di House 2 modern dapat menunjukkan luka nilai diri yang menjadi jalan penyembuhan.'};return e[p]||`${p} harus digabung dengan sign, house, aspek, dan topik yang sedang dibaca.`}
+function renderLearn(){learnNav.innerHTML=LESSONS.map(l=>`<a href="#${l.id}">${l.title}</a>`).join('');learnContent.innerHTML=LESSONS.map(l=>`<section id="${l.id}" class="lesson-section card"><div class="card-head"><div class="card-title"><h2>${l.title}</h2><span>${l.tags||''}</span></div></div><div class="card-body">${l.body}</div></section>`).join('')}
+const LESSONS=[
+{id:'cara-membaca',title:'Cara Membaca Natal Chart dari Nol',tags:'<span class="tag">Klasik & Modern</span>',body:`<p>Natal chart adalah peta simbolik posisi planet, zodiak, house, dan aspek pada waktu kelahiran. Aplikasi ini tidak memaksa hafalan di awal. Anda belajar melalui pengulangan pola membaca.</p><div class="callout good"><b>Formula dasar:</b> Planet = pelaku. Sign = cara planet bekerja. House = bidang kehidupan. Lord House = penguasa topik. Dignity = kuat/lemah planet. Aspect = hubungan antar faktor.</div><p><b>Contoh uang:</b> Jangan hanya membaca “House 2 = uang”. Lihat sign House 2, Lord House 2, house tempat lord berada, dignity lord, dan aspek kepada lord.</p><p><b>Contoh karier:</b> House 10 menunjukkan karier/reputasi, tetapi Lord House 10 menunjukkan kualitas utama karier. Jika Lord 10 Saturn retrograde, karier bisa berkembang lewat proses panjang, revisi tanggung jawab, dan disiplin internal.</p>`},
+{id:'bab-simbol',title:'Mengenal Simbol Astrologi',tags:'<span class="tag">Klasik & Modern</span>',body:`<p>Simbol visual membantu hafalan terbentuk alami. Karena itu simbol ditampilkan pada input, data chart, interpretasi, guiding, dan materi belajar.</p><div class="table-wrap"><table><thead><tr><th>Simbol</th><th>Nama</th><th>Contoh mengingat</th></tr></thead><tbody><tr><td>☉</td><td>Sun (Matahari)</td><td>Titik di pusat: pusat cahaya.</td></tr><tr><td>☽</td><td>Moon (Bulan)</td><td>Bulan sabit: emosi dan tubuh.</td></tr><tr><td>☿</td><td>Mercury</td><td>Pesan, pikiran, bahasa.</td></tr><tr><td>♀</td><td>Venus</td><td>Cermin: harmoni, relasi, nilai.</td></tr><tr><td>♂</td><td>Mars</td><td>Tombak: tindakan, konflik, keberanian.</td></tr><tr><td>♃</td><td>Jupiter</td><td>Pertumbuhan, guru, rezeki.</td></tr><tr><td>♄</td><td>Saturn</td><td>Batas, waktu, struktur.</td></tr><tr><td>♅ ♆ ♇ ⚷</td><td>Uranus, Neptune, Pluto, Chiron</td><td>Dipakai terutama pada pembacaan modern.</td></tr></tbody></table></div><p>Zodiak: ♈ Aries, ♉ Taurus, ♊ Gemini, ♋ Cancer, ♌ Leo, ♍ Virgo, ♎ Libra, ♏ Scorpio, ♐ Sagittarius, ♑ Capricorn, ♒ Aquarius, ♓ Pisces.</p>`},
+{id:'angles',title:'ASC, DESC, MC, IC',tags:'<span class="tag">Klasik & Modern</span>',body:`<h4 id="angle-asc">ASC / Ascendant (Titik Terbit)</h4><p>ASC adalah awal House 1. Ia menunjukkan tubuh, cara hadir, kesan awal, dan pintu masuk chart. Contoh: ASC Taurus membuat Venus menjadi Lord Ascendant, maka kondisi Venus sangat penting untuk membaca diri.</p><h4 id="angle-desc">DESC / Descendant (Titik Terbenam)</h4><p>DESC adalah awal House 7. Dipakai untuk pasangan, relasi, kontrak, lawan terbuka, dan publik. Contoh: DESC Scorpio membuat Mars menjadi penguasa relasi.</p><h4 id="angle-mc">MC / Medium Coeli (Puncak Langit)</h4><p>MC berhubungan dengan karier, reputasi, martabat, dan arah publik. Contoh: MC Aquarius mengarahkan pembacaan karier ke Saturn dalam pendekatan klasik.</p><h4 id="angle-ic">IC / Imum Coeli (Dasar Langit)</h4><p>IC berhubungan dengan rumah, akar, keluarga, tanah, dan fondasi batin. Contoh: IC Leo membuat Sun penting untuk membaca rumah/keluarga.</p>`},
+{id:'planet-sun',title:'Planet Klasik: Sun sampai Saturn',tags:'<span class="tag classic">Klasik</span> <span class="tag">Modern juga memakai</span>',body:`<p>Tujuh planet klasik adalah tulang punggung pembacaan tradisional: ☉ Sun, ☽ Moon, ☿ Mercury, ♀ Venus, ♂ Mars, ♃ Jupiter, ♄ Saturn.</p><h4>Contoh Jupiter</h4><p>Jupiter adalah benefic besar. Dalam klasik ia berhubungan dengan ilmu, guru, agama, hukum, perlindungan, dan pertumbuhan. Jupiter di Cancer adalah exaltation; Jupiter di Capricorn adalah fall. Jika Jupiter menjadi Lord House 2, uang dibaca melalui kualitas Jupiter.</p><h4>Contoh Saturn</h4><p>Saturn menunjukkan batas, struktur, waktu, tanggung jawab. Saturn sebagai Lord House 10 bisa menunjukkan karier yang matang lewat proses panjang. Saturn retrograde menunjukkan tanggung jawab yang lebih internal.</p><h4>Contoh Venus dan Mars</h4><p>Venus di Virgo = fall: relasi/kesenangan perlu belajar menerima ketidaksempurnaan. Mars di Capricorn = exaltation: tindakan lebih strategis dan disiplin.</p>`},
+{id:'modern-planets',title:'Planet dan Titik Modern',tags:'<span class="tag modern">Modern</span>',body:`<p>Astrologi modern menambahkan Uranus, Neptune, Pluto, Chiron, dan Node. Bagian ini tidak dipakai sebagai dasar dalam pembacaan klasik, tetapi penting untuk pembacaan psikologis modern.</p><ul><li><b>Uranus:</b> kebebasan, perubahan mendadak, teknologi, orisinalitas. Contoh: Uranus di House 10 dapat menunjukkan karier tidak biasa atau butuh kebebasan.</li><li><b>Neptune:</b> mimpi, spiritualitas, imajinasi, kabut, idealisme. Contoh: Neptune di House 7 bisa memberi idealisasi pasangan; perlu batas jelas.</li><li><b>Pluto:</b> krisis, transformasi, kuasa, kontrol, regenerasi. Contoh: Pluto di House 4 menunjukkan transformasi keluarga/akar batin.</li><li><b>Chiron:</b> luka dan penyembuhan. Contoh: Chiron di House 2 dapat menunjukkan luka nilai diri yang menjadi jalan penyembuhan.</li><li><b>North Node / South Node:</b> arah perkembangan dan pola lama.</li></ul>`},
+{id:'house',title:'12 House dan Cara Membacanya',tags:'<span class="tag">Klasik & Modern</span>',body:`<p>House adalah bidang kehidupan. Dalam pembacaan yang benar, house tidak dibaca sendirian. House harus dihubungkan dengan Lord House.</p><p><b>Contoh House 2:</b> uang, harta, makanan, simpanan, nilai diri. Jika House 2 Gemini, Lord House 2 adalah Mercury. Uang bisa terkait komunikasi, dagang, menulis, data, atau belajar.</p><p><b>Contoh House 7:</b> pasangan dan kontrak. Jika House 7 Scorpio, Lord House 7 adalah Mars. Relasi dibaca melalui kondisi Mars.</p><p><b>Contoh House 10:</b> karier/reputasi. Jika House 10 Aquarius, Lord House 10 adalah Saturn. Karier dibaca melalui Saturn.</p><h4>House kosong</h4><p>House kosong bukan berarti topiknya hilang. Bacalah Lord House-nya.</p>`},
+{id:'house-system',title:'House System (Sistem Rumah)',tags:'<span class="tag">Barat/Klasik/Modern</span>',body:`<p>House system adalah metode membagi chart menjadi 12 house. Aplikasi ini membahas sistem Barat/Klasik/Modern, bukan Vedic/Jyotish.</p><ul><li><b>Whole Sign:</b> satu sign penuh menjadi satu house. Cocok untuk belajar topik dan Lord House.</li><li><b>Placidus:</b> sangat populer dalam astrologi modern Barat. Ukuran house bisa berbeda-beda.</li><li><b>Regiomontanus:</b> sering dipakai dalam tradisi horary/klasik.</li><li><b>Porphyry:</b> membagi jarak antara sudut ASC-MC-DESC-IC menjadi tiga bagian.</li><li><b>Equal House:</b> setiap house 30 derajat dari ASC.</li></ul><p><b>Contoh:</b> satu planet bisa berada di House 9 dalam Whole Sign tetapi House 8 dalam Placidus. Maka pembaca harus tahu sistem rumah yang dipakai.</p>`},
+{id:'lord-house',title:'Lord House (Penguasa Rumah)',tags:'<span class="tag classic">Klasik</span> <span class="tag">Dipakai juga modern</span>',body:`<p>Lord House adalah planet penguasa sign pada cusp house. Ini adalah kunci membaca topik.</p><p><b>Formula:</b> Topik = House. Penguasa topik = Lord House. Kualitas topik = kondisi Lord. Arah topik = house tempat Lord berada. Bantuan/hambatan = aspek kepada Lord.</p><p><b>Contoh uang:</b> House 2 Gemini → Lord House 2 Mercury. Jika Mercury di House 4, uang terkait rumah/keluarga/tanah. Jika Mercury retrograde, proses uang perlu pengulangan dan koreksi.</p><p><b>Contoh pasangan:</b> House 7 Scorpio → Lord House 7 Mars. Jika Mars fall di Cancer, relasi membutuhkan pembelajaran emosi dan pengelolaan konflik.</p>`},
+{id:'dignity',title:'Dignity (Martabat Planet)',tags:'<span class="tag classic">Klasik</span>',body:`<p>Dignity menilai kuat/lemahnya planet secara kualitas.</p><div class="table-wrap"><table><thead><tr><th>Planet</th><th>Domicile</th><th>Exaltation</th><th>Detriment</th><th>Fall</th></tr></thead><tbody><tr><td>Sun</td><td>Leo</td><td>Aries</td><td>Aquarius</td><td>Libra</td></tr><tr><td>Moon</td><td>Cancer</td><td>Taurus</td><td>Capricorn</td><td>Scorpio</td></tr><tr><td>Mercury</td><td>Gemini/Virgo</td><td>Virgo</td><td>Sagittarius/Pisces</td><td>Pisces</td></tr><tr><td>Venus</td><td>Taurus/Libra</td><td>Pisces</td><td>Scorpio/Aries</td><td>Virgo</td></tr><tr><td>Mars</td><td>Aries/Scorpio</td><td>Capricorn</td><td>Libra/Taurus</td><td>Cancer</td></tr><tr><td>Jupiter</td><td>Sagittarius/Pisces</td><td>Cancer</td><td>Gemini/Virgo</td><td>Capricorn</td></tr><tr><td>Saturn</td><td>Capricorn/Aquarius</td><td>Libra</td><td>Cancer/Leo</td><td>Aries</td></tr></tbody></table></div><p><b>Contoh Venus fall di Virgo:</b> Venus tetap bisa mencintai, tetapi caranya analitis, kritis, ingin memperbaiki, atau sulit rileks dalam relasi.</p><p><b>Contoh Mars exaltation di Capricorn:</b> Mars menjadi lebih strategis, disiplin, dan mampu bertindak dengan target.</p><h4 id="dignity-fall">Fall</h4><p>Fall bukan berarti hancur total. Artinya planet tidak nyaman mengekspresikan sifat alaminya dan perlu belajar cara kerja baru.</p>`},
+{id:'angular',title:'Angular, Succedent, Cadent',tags:'<span class="tag classic">Klasik</span>',body:`<p>Ini adalah kekuatan house secara aksidental.</p><ul><li><b>Angular:</b> House 1, 4, 7, 10. Planet lebih tampil.</li><li><b>Succedent:</b> House 2, 5, 8, 11. Planet lebih stabil/menahan.</li><li><b>Cadent:</b> House 3, 6, 9, 12. Planet bekerja tidak langsung, tersembunyi, atau melalui proses.</li></ul><p><b>Contoh:</b> Jupiter di House 10 angular lebih tampak dalam reputasi. Jupiter di House 9 cadent tetap penting, tetapi bekerja melalui ilmu, guru, keyakinan, perjalanan jauh.</p>`},
+{id:'retrograde',title:'Direct, Retrograde, Station',tags:'<span class="tag">Klasik & Modern</span>',body:`<p>Retrograde (gerak mundur tampak) menunjukkan planet bekerja lebih internal, reflektif, berulang, atau tidak langsung.</p><p><b>Contoh Jupiter retrograde:</b> pencarian makna, guru, agama, dan rezeki lebih banyak diproses dari pengalaman pribadi. Jika Jupiter Lord House 2, uang/nilai diri mungkin mengalami evaluasi berulang sebelum matang.</p><p><b>Contoh Saturn retrograde:</b> tanggung jawab dan disiplin dibangun dari dalam. Jika Saturn Lord House 10, karier memerlukan waktu, revisi struktur, dan kematangan.</p><p><b>Contoh Mercury retrograde:</b> pikiran, bahasa, belajar, dagang, atau komunikasi lebih reflektif; sering perlu revisi.</p>`},
+{id:'benefic-malefic',title:'Benefic, Malefic, Luminary',tags:'<span class="tag classic">Klasik</span>',body:`<p>Benefic (pembawa manfaat): Venus dan Jupiter. Malefic (pembawa tantangan): Mars dan Saturn. Luminary (cahaya utama): Sun dan Moon.</p><p>Malefic tidak selalu buruk. Mars kuat dapat menjadi keberanian dan tindakan. Saturn kuat dapat menjadi struktur dan kedewasaan. Benefic lemah tidak selalu menolong dengan mudah.</p><p><b>Contoh:</b> Mars di Capricorn House 10 dapat memberi ambisi dan tindakan strategis dalam karier. Saturn di Libra dapat memberi kemampuan struktur sosial/relasi yang kuat.</p>`},
+{id:'aspect',title:'Aspect (Aspek)',tags:'<span class="tag">Klasik & Modern</span>',body:`<p>Aspect adalah hubungan geometris antarplanet.</p><ul><li>☌ Conjunction: menyatukan.</li><li>⚹ Sextile: peluang dan bantuan.</li><li>□ Square: tekanan, gesekan, usaha.</li><li>△ Trine: aliran mudah.</li><li>☍ Opposition: polaritas dan tarik-menarik.</li></ul><p><b>Applying:</b> menuju exact. <b>Separating:</b> sudah melewati exact. Jika pemula belum tahu, isi “Tidak tahu” dan baca jenis aspeknya dulu.</p><p><b>Contoh:</b> Moon square Mars dapat menunjukkan reaksi emosional cepat, konflik kebutuhan aman dan tindakan. Venus trine Jupiter dapat memberi kemudahan sosial, kesenangan, atau dukungan.</p>`},
+{id:'advanced-classic',title:'Triplicity, Term/Bound, Face/Decan, Reception',tags:'<span class="tag classic">Klasik</span> <span class="tag adv">Lanjutan</span>',body:`<div class="callout warn"><b>Catatan tingkat lanjut:</b> Bagian ini tetap dimasukkan karena pengguna aplikasi bisa pemula maupun lanjutan. Pemula boleh melewati dulu sampai memahami planet, house, lord house, dan dignity dasar.</div><p><b>Triplicity (kelompok unsur):</b> martabat berdasarkan elemen api/tanah/udara/air dan sekta siang/malam.</p><p><b>Term / Bound (batas derajat):</b> pembagian derajat dalam satu sign yang memberi kekuasaan kecil kepada planet tertentu.</p><p><b>Face / Decan (wajah/dekan):</b> pembagian sign menjadi tiga bagian 10 derajat.</p><p><b>Reception (penerimaan):</b> hubungan ketika satu planet berada di wilayah dignity planet lain. Ini membantu membaca apakah planet saling menerima, mendukung, atau mengenali.</p><p><b>Contoh reception:</b> Mars di Taurus berada di sign Venus. Jika Venus punya hubungan baik dengan Mars, bisa ada bentuk penerimaan yang mengurangi ketegangan atau memberi jalan kerja sama.</p>`},
+{id:'formula-tematik',title:'Formula Bacaan Tematik 12 House',tags:'<span class="tag">Klasik & Modern</span>',body:`<p>Formula tematik membantu pembelajar tidak bingung.</p><p><b>Diri / House 1:</b> House 1, Lord 1, Moon, Sun, ASC.</p><p><b>Uang / House 2:</b> House 2, Lord 2, planet di House 2, aspek Lord 2.</p><p><b>Pasangan / House 7:</b> House 7, Lord 7, Venus/Moon sebagai pendukung, aspek Lord 7.</p><p><b>Karier / House 10:</b> House 10, MC, Lord 10, planet di House 10, aspek Lord 10.</p><p><b>Catatan:</b> Dalam klasik, kuat/lemah planet dan lord house sangat ditekankan. Dalam modern, makna psikologis, pola perkembangan, dan planet modern ikut dibaca.</p>`},
+{id:'glosarium',title:'Glosarium Materi',tags:'<span class="tag">Rujukan</span>',body:`<p>Glosarium lengkap tersedia pada halaman <b>Glosarium</b>. Isinya disusun sebagai kamus cepat istilah pembacaan natal chart Barat Klasik dan Modern: data chart, sudut, planet, zodiak, house, house system, lord house, dignity, kondisi planet, aspek, planet modern, dan formula pembacaan.</p><p><b>Contoh cara pakai:</b> jika Anda lupa arti <i>Lord House</i>, buka Glosarium, cari “Lord House”, baca definisi cepat dan contoh, lalu klik materi terkait untuk masuk ke bab Belajar Dasar.</p>`}
+];
+const GLOSSARY = [
+{
+"term": "Natal Chart / Peta Kelahiran",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Peta langit pada saat, tanggal, dan tempat seseorang lahir. Dipakai sebagai dasar membaca karakter, potensi, pola hidup, dan tema kehidupan.",
+"example": "Contoh: dua orang lahir tanggal sama tetapi jam/tempat berbeda dapat memiliki ASC dan house berbeda, sehingga pembacaannya berubah.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Chart Type",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Jenis peta astrologi yang sedang dibaca, misalnya natal chart, horary chart, event chart, atau electional chart.",
+"example": "Contoh: untuk membaca kehidupan seseorang gunakan Natal Chart, bukan Horary Chart.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Geocentric",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Mode perhitungan dari sudut pandang Bumi. Ini adalah mode umum untuk natal chart Barat.",
+"example": "Contoh: posisi Mars geocentric dipakai untuk membaca tindakan dan keberanian seseorang dalam peta kelahiran.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Zodiac",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Lingkaran 12 sign yang menjadi latar posisi planet: Aries sampai Pisces.",
+"example": "Contoh: Moon di Taurus berbeda cara kerjanya dengan Moon di Scorpio karena zodiaknya berbeda.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Tropical Zodiac",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Zodiak Barat yang berbasis musim/equinox. Banyak dipakai dalam astrologi Barat klasik dan modern.",
+"example": "Contoh: laporan chart modern Barat biasanya memakai Tropical Zodiac sebagai default.",
+"anchor": "house-system"
+},
+{
+"term": "Sidereal Zodiac",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Zodiak berbasis posisi bintang tetap. Dalam aplikasi ini hanya dikenalkan sebagai pilihan data, bukan sebagai jalur pembacaan Vedic/Jyotish.",
+"example": "Contoh: jika laporan Anda menyebut Sidereal, jangan dicampur begitu saja dengan hasil Tropical karena derajat planet bisa berbeda.",
+"anchor": "house-system"
+},
+{
+"term": "House System / Sistem Rumah",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Metode membagi chart menjadi 12 house. Sistem yang berbeda dapat memindahkan planet ke house berbeda.",
+"example": "Contoh: planet bisa jatuh di House 8 dalam Placidus tetapi House 9 dalam Whole Sign.",
+"anchor": "house-system"
+},
+{
+"term": "Birth Time / Jam Lahir",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Jam lahir dipakai untuk menentukan ASC, MC, house, dan posisi Moon lebih presisi.",
+"example": "Contoh: selisih 30 menit bisa mengubah ASC atau house planet, terutama bila cusp dekat batas sign.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Time Zone / Zona Waktu",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Zona waktu lokal yang mengubah jam lahir menjadi UTC untuk perhitungan chart.",
+"example": "Contoh: lahir 08:58 WIB berarti UTC+7, sehingga waktu UTC-nya 01:58.",
+"anchor": "cara-membaca"
+},
+{
+"term": "UTC",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Waktu universal yang dipakai sebagai rujukan perhitungan astronomis.",
+"example": "Contoh: aplikasi chart biasanya mengubah 22:30 WIB menjadi 15:30 UTC.",
+"anchor": "cara-membaca"
+},
+{
+"term": "WIB",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Waktu Indonesia Barat, yaitu UTC+7.",
+"example": "Contoh: Jakarta, Medan, Semarang memakai WIB untuk data lahir.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Latitude / Lintang",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Koordinat utara-selatan tempat lahir. Penting untuk menghitung house dan sudut chart.",
+"example": "Contoh: Medan sekitar 3° LU; nilai ini memengaruhi ASC dan MC.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Longitude / Bujur",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Koordinat timur-barat tempat lahir. Penting untuk konversi waktu lokal dan sudut chart.",
+"example": "Contoh: Jakarta sekitar 106° BT; bujur ini membantu menentukan peta langit lokal.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Ephemeris",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Tabel atau data posisi planet pada waktu tertentu.",
+"example": "Contoh: untuk mengetahui Mercury pada tanggal lahir, kalkulator memakai data ephemeris.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Chart Report / Laporan Chart",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Laporan yang berisi posisi planet, house, aspek, dan kadang interpretasi.",
+"example": "Contoh: jika laporan mencantumkan Sun 1° Aquarius House 12, data itu bisa dimasukkan manual ke aplikasi.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Symbol / Simbol Astrologi",
+"symbol": "",
+"category": "Simbol",
+"level": "Umum",
+"definition": "Tanda visual untuk planet, zodiak, aspek, atau titik chart. Simbol membantu pembelajar mengenali data chart lebih cepat.",
+"example": "Contoh: ♃ berarti Jupiter, ♉ berarti Taurus, dan △ berarti Trine.",
+"anchor": "bab-simbol"
+},
+{
+"term": "ASC / Ascendant",
+"symbol": "ASC",
+"category": "Sudut Chart",
+"level": "Umum",
+"definition": "Titik terbit di ufuk timur dan awal House 1. Membaca tubuh, cara hadir, respons awal, dan pintu masuk chart.",
+"example": "Contoh: ASC Taurus membuat Venus menjadi Lord Ascendant; kondisi Venus menjadi kunci membaca diri.",
+"anchor": "angles"
+},
+{
+"term": "DESC / Descendant",
+"symbol": "DESC",
+"category": "Sudut Chart",
+"level": "Umum",
+"definition": "Titik terbenam di ufuk barat dan awal House 7. Membaca pasangan, relasi, kontrak, dan lawan terbuka.",
+"example": "Contoh: DESC Scorpio membuat Mars menjadi penguasa topik relasi.",
+"anchor": "angles"
+},
+{
+"term": "MC / Medium Coeli",
+"symbol": "MC",
+"category": "Sudut Chart",
+"level": "Umum",
+"definition": "Puncak chart yang berkaitan dengan karier, reputasi, martabat, dan arah publik.",
+"example": "Contoh: MC Aquarius dalam pendekatan klasik membuat Saturn penting untuk membaca karier.",
+"anchor": "angles"
+},
+{
+"term": "IC / Imum Coeli",
+"symbol": "IC",
+"category": "Sudut Chart",
+"level": "Umum",
+"definition": "Dasar chart yang berkaitan dengan rumah, keluarga, akar, tanah, dan fondasi batin.",
+"example": "Contoh: IC Leo membuat Sun penting dalam membaca urusan rumah dan keluarga.",
+"anchor": "angles"
+},
+{
+"term": "Axis ASC-DESC",
+"symbol": "",
+"category": "Sudut Chart",
+"level": "Umum",
+"definition": "Poros diri dan orang lain. ASC menunjukkan diri, DESC menunjukkan relasi/pihak lain.",
+"example": "Contoh: ASC Taurus dan DESC Scorpio menunjukkan pembacaan diri lewat Venus dan relasi lewat Mars.",
+"anchor": "angles"
+},
+{
+"term": "Axis MC-IC",
+"symbol": "",
+"category": "Sudut Chart",
+"level": "Umum",
+"definition": "Poros karier-publik dan akar-pribadi. MC menunjuk dunia luar, IC menunjuk dasar keluarga/batin.",
+"example": "Contoh: konflik MC dan IC dapat dibaca sebagai tarikan antara karier dan keluarga.",
+"anchor": "angles"
+},
+{
+"term": "Cusp",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Batas awal house. Sign pada cusp menentukan Lord House.",
+"example": "Contoh: cusp House 2 di Gemini membuat Mercury menjadi Lord House 2.",
+"anchor": "house"
+},
+{
+"term": "House Cusp",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Titik awal sebuah house dalam sistem rumah tertentu.",
+"example": "Contoh: House 10 cusp Aquarius berarti karier dibaca melalui Saturn dalam klasik.",
+"anchor": "house"
+},
+{
+"term": "Degree / Derajat",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Satuan posisi planet/sign dari 0 sampai 29 derajat dalam satu sign.",
+"example": "Contoh: Venus 04° Leo berarti Venus berada pada derajat ke-4 Leo.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Minute / Menit",
+"symbol": "",
+"category": "Data Chart",
+"level": "Umum",
+"definition": "Bagian kecil derajat. Satu derajat berisi 60 menit.",
+"example": "Contoh: ASC 13°01 Taurus berarti derajat 13 menit 01.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Sun / Matahari",
+"symbol": "☉",
+"category": "Planet & Titik",
+"level": "Umum",
+"definition": "Luminary yang menunjukkan pusat kesadaran, vitalitas, kehendak, figur ayah/otoritas, dan arah identitas sadar.",
+"example": "Contoh: Sun di House 10 dapat membuat kebutuhan tampil, reputasi, atau peran publik menjadi penting.",
+"anchor": "planet-sun"
+},
+{
+"term": "Moon / Bulan",
+"symbol": "☽",
+"category": "Planet & Titik",
+"level": "Umum",
+"definition": "Luminary yang menunjukkan emosi, tubuh kebiasaan, kebutuhan rasa aman, ibu, perubahan, dan alur pengalaman harian.",
+"example": "Contoh: Moon di Taurus cenderung mencari keamanan konkret, kenyamanan, makanan, dan stabilitas rasa.",
+"anchor": "planet-sun"
+},
+{
+"term": "Mercury",
+"symbol": "☿",
+"category": "Planet & Titik",
+"level": "Umum",
+"definition": "Planet pikiran, bahasa, belajar, perdagangan, tulisan, data, dan penghubung informasi.",
+"example": "Contoh: Mercury sebagai Lord House 2 bisa menunjukkan uang melalui komunikasi, jual-beli, menulis, atau analisis.",
+"anchor": "planet-sun"
+},
+{
+"term": "Venus",
+"symbol": "♀",
+"category": "Planet & Titik",
+"level": "Umum",
+"definition": "Planet harmoni, cinta, kesenangan, relasi, seni, nilai, daya tarik, dan penyatuan.",
+"example": "Contoh: Venus fall di Virgo menunjukkan cinta yang praktis tetapi mudah terlalu kritis atau ingin memperbaiki.",
+"anchor": "planet-sun"
+},
+{
+"term": "Mars",
+"symbol": "♂",
+"category": "Planet & Titik",
+"level": "Umum",
+"definition": "Planet tindakan, keberanian, konflik, dorongan, pisau, panas, persaingan, dan pemutusan.",
+"example": "Contoh: Mars exalted di Capricorn bekerja strategis dan disiplin, bukan hanya impulsif.",
+"anchor": "planet-sun"
+},
+{
+"term": "Jupiter",
+"symbol": "♃",
+"category": "Planet & Titik",
+"level": "Umum",
+"definition": "Benefic besar yang berkaitan dengan pertumbuhan, ilmu, guru, agama, hukum, perlindungan, rezeki, dan keluasan.",
+"example": "Contoh: Jupiter di House 9 menguatkan tema ilmu, kepercayaan, guru, perjalanan jauh, atau hukum.",
+"anchor": "planet-sun"
+},
+{
+"term": "Saturn",
+"symbol": "♄",
+"category": "Planet & Titik",
+"level": "Umum",
+"definition": "Malefic besar yang berkaitan dengan batas, waktu, tanggung jawab, struktur, disiplin, tua, dingin, dan keterlambatan.",
+"example": "Contoh: Saturn Lord House 10 dapat menunjukkan karier yang dibangun lambat tetapi kokoh.",
+"anchor": "planet-sun"
+},
+{
+"term": "Uranus",
+"symbol": "♅",
+"category": "Planet & Titik Modern",
+"level": "Modern",
+"definition": "Planet modern untuk perubahan mendadak, kebebasan, pemberontakan, teknologi, kejutan, dan orisinalitas.",
+"example": "Contoh: Uranus di House 10 dapat menunjukkan karier tidak biasa atau kebutuhan kebebasan kerja.",
+"anchor": "modern-planets"
+},
+{
+"term": "Neptune",
+"symbol": "♆",
+"category": "Planet & Titik Modern",
+"level": "Modern",
+"definition": "Planet modern untuk mimpi, imajinasi, spiritualitas, kabut, idealisasi, seni, dan dissolusi batas.",
+"example": "Contoh: Neptune di House 7 dapat menunjukkan idealisasi pasangan dan perlunya batas relasi yang jelas.",
+"anchor": "modern-planets"
+},
+{
+"term": "Pluto",
+"symbol": "♇",
+"category": "Planet & Titik Modern",
+"level": "Modern",
+"definition": "Planet modern untuk transformasi mendalam, krisis, kuasa, kontrol, obsesi, dan regenerasi.",
+"example": "Contoh: Pluto di House 4 dapat menunjukkan transformasi kuat pada keluarga atau akar batin.",
+"anchor": "modern-planets"
+},
+{
+"term": "Chiron",
+"symbol": "⚷",
+"category": "Planet & Titik Modern",
+"level": "Modern",
+"definition": "Titik modern yang sering dibaca sebagai luka, proses penyembuhan, dan kemampuan menolong dari pengalaman terluka.",
+"example": "Contoh: Chiron di House 2 dapat menunjukkan luka nilai diri yang menjadi jalan penyembuhan.",
+"anchor": "modern-planets"
+},
+{
+"term": "North Node / Rahu Modern",
+"symbol": "☊",
+"category": "Planet & Titik Modern",
+"level": "Modern",
+"definition": "Titik perkembangan, arah pertumbuhan, area yang terasa asing tetapi perlu dipelajari. Dalam aplikasi dibaca modern/Barat, bukan Vedic.",
+"example": "Contoh: North Node di House 10 mengarah pada keberanian tampil di ruang publik atau karier.",
+"anchor": "modern-planets"
+},
+{
+"term": "South Node",
+"symbol": "☋",
+"category": "Planet & Titik Modern",
+"level": "Modern",
+"definition": "Titik pola lama, kebiasaan yang sudah dikenal, atau zona nyaman yang perlu diseimbangkan.",
+"example": "Contoh: South Node di House 4 bisa menunjukkan kenyamanan lama pada keluarga/privasi yang perlu diimbangi karier.",
+"anchor": "modern-planets"
+},
+{
+"term": "Lilith",
+"symbol": "⚸",
+"category": "Planet & Titik Modern",
+"level": "Modern",
+"definition": "Titik modern/opsional yang sering dipakai untuk tema insting liar, rasa tertolak, tabu, atau otonomi emosional.",
+"example": "Contoh: Lilith di House 7 bisa menunjukkan sensitivitas terhadap dominasi dalam relasi.",
+"anchor": "modern-planets"
+},
+{
+"term": "Part of Fortune / Lot of Fortune",
+"symbol": "⊗",
+"category": "Lots & Titik Klasik",
+"level": "Lanjutan",
+"definition": "Saham/lot klasik yang berkaitan dengan rezeki, tubuh, keberuntungan duniawi, dan aliran material.",
+"example": "Contoh: Part of Fortune di House 2 bisa menekankan rezeki melalui sumber daya, harta, makanan, atau nilai diri.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Lot / Arabic Part",
+"symbol": "⊗",
+"category": "Lots & Titik Klasik",
+"level": "Lanjutan",
+"definition": "Titik matematis yang dihitung dari planet/sudut tertentu untuk membaca tema khusus.",
+"example": "Contoh: Lot of Fortune dibaca bersama dispositornya untuk melihat aliran rezeki/tubuh.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Fixed Star",
+"symbol": "",
+"category": "Lots & Titik Klasik",
+"level": "Lanjutan",
+"definition": "Bintang tetap yang kadang dipakai sebagai lapisan tambahan jika dekat dengan planet/sudut penting.",
+"example": "Contoh: planet dekat fixed star kuat dapat menambah makna reputasi atau peristiwa ekstrem, tetapi ini materi lanjutan.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Aries",
+"symbol": "♈",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Api Cardinal dengan kualitas berani, cepat memulai, langsung.",
+"example": "Contoh: planet di Aries bekerja dengan gaya berani, cepat memulai, langsung.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Taurus",
+"symbol": "♉",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Tanah Fixed dengan kualitas stabil, konkret, menjaga keamanan.",
+"example": "Contoh: planet di Taurus bekerja dengan gaya stabil, konkret, menjaga keamanan.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Gemini",
+"symbol": "♊",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Udara Mutable dengan kualitas komunikatif, ingin belajar, fleksibel.",
+"example": "Contoh: planet di Gemini bekerja dengan gaya komunikatif, ingin belajar, fleksibel.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Cancer",
+"symbol": "♋",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Air Cardinal dengan kualitas emosional, protektif, rumah/keluarga.",
+"example": "Contoh: planet di Cancer bekerja dengan gaya emosional, protektif, rumah/keluarga.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Leo",
+"symbol": "♌",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Api Fixed dengan kualitas ekspresif, kreatif, ingin bersinar.",
+"example": "Contoh: planet di Leo bekerja dengan gaya ekspresif, kreatif, ingin bersinar.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Virgo",
+"symbol": "♍",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Tanah Mutable dengan kualitas analitis, detail, memperbaiki.",
+"example": "Contoh: planet di Virgo bekerja dengan gaya analitis, detail, memperbaiki.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Libra",
+"symbol": "♎",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Udara Cardinal dengan kualitas relasional, seimbang, diplomatis.",
+"example": "Contoh: planet di Libra bekerja dengan gaya relasional, seimbang, diplomatis.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Scorpio",
+"symbol": "♏",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Air Fixed dengan kualitas intens, mendalam, transformasional.",
+"example": "Contoh: planet di Scorpio bekerja dengan gaya intens, mendalam, transformasional.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Sagittarius",
+"symbol": "♐",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Api Mutable dengan kualitas mencari makna, ilmu, perjalanan.",
+"example": "Contoh: planet di Sagittarius bekerja dengan gaya mencari makna, ilmu, perjalanan.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Capricorn",
+"symbol": "♑",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Tanah Cardinal dengan kualitas struktur, tanggung jawab, ambisi.",
+"example": "Contoh: planet di Capricorn bekerja dengan gaya struktur, tanggung jawab, ambisi.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Aquarius",
+"symbol": "♒",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Udara Fixed dengan kualitas sistemik, sosial, berbeda, ide besar.",
+"example": "Contoh: planet di Aquarius bekerja dengan gaya sistemik, sosial, berbeda, ide besar.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Pisces",
+"symbol": "♓",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Sign Air Mutable dengan kualitas imajinatif, empatik, spiritual.",
+"example": "Contoh: planet di Pisces bekerja dengan gaya imajinatif, empatik, spiritual.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Element / Unsur",
+"symbol": "",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Kelompok sign berdasarkan Api, Tanah, Udara, dan Air. Dipakai untuk melihat gaya energi chart.",
+"example": "Contoh: banyak planet Air menunjukkan hidup banyak diproses melalui emosi dan intuisi.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Fire / Api",
+"symbol": "🔥",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Unsur Aries, Leo, Sagittarius. Menunjukkan dorongan, keberanian, antusiasme, dan inspirasi.",
+"example": "Contoh: Mars di sign Api bergerak cepat dan langsung.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Earth / Tanah",
+"symbol": "⛰",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Unsur Taurus, Virgo, Capricorn. Menunjukkan realitas, tubuh, materi, pekerjaan, dan stabilitas.",
+"example": "Contoh: Venus di sign Tanah menunjukkan cinta yang praktis dan konkret.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Air / Udara",
+"symbol": "💨",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Unsur Gemini, Libra, Aquarius. Menunjukkan pikiran, bahasa, relasi sosial, dan konsep.",
+"example": "Contoh: Mercury di sign Udara kuat untuk diskusi, ide, dan jaringan.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Water / Air",
+"symbol": "💧",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Unsur Cancer, Scorpio, Pisces. Menunjukkan emosi, intuisi, ikatan, dan kedalaman rasa.",
+"example": "Contoh: Moon di sign Air sangat peka pada suasana dan keamanan emosional.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Mode / Modalitas",
+"symbol": "",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Pembagian sign menjadi Cardinal, Fixed, Mutable. Dipakai untuk melihat cara energi bergerak.",
+"example": "Contoh: banyak Fixed memberi ketahanan, tetapi bisa sulit berubah.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Cardinal",
+"symbol": "",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Mode yang memulai: Aries, Cancer, Libra, Capricorn.",
+"example": "Contoh: ASC Cardinal membuat respons awal lebih inisiatif.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Fixed",
+"symbol": "",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Mode yang mempertahankan: Taurus, Leo, Scorpio, Aquarius.",
+"example": "Contoh: Moon Fixed dapat mempertahankan kebiasaan emosional lama.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Mutable",
+"symbol": "",
+"category": "Zodiak",
+"level": "Umum",
+"definition": "Mode yang menyesuaikan: Gemini, Virgo, Sagittarius, Pisces.",
+"example": "Contoh: Mercury Mutable mudah belajar banyak hal, tetapi perlu fokus.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Masculine / Diurnal Sign",
+"symbol": "",
+"category": "Zodiak",
+"level": "Lanjutan",
+"definition": "Sign maskulin/diurnal dalam tradisi Barat: Api dan Udara. Lebih ekspresif/keluar.",
+"example": "Contoh: Sun di sign maskulin cenderung lebih mudah mengekspresikan kehendak.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Feminine / Nocturnal Sign",
+"symbol": "",
+"category": "Zodiak",
+"level": "Lanjutan",
+"definition": "Sign feminin/nocturnal dalam tradisi Barat: Tanah dan Air. Lebih reseptif/internal.",
+"example": "Contoh: Moon di sign feminin lebih menekankan rasa, tubuh, dan penerimaan.",
+"anchor": "advanced-classic"
+},
+{
+"term": "House 1",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Diri, tubuh, penampilan, karakter luar, awal tindakan",
+"example": "ASC Taurus membuat Venus kunci pembacaan diri.",
+"anchor": "house"
+},
+{
+"term": "House 2",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Uang, harta, makanan, nilai diri, sumber daya",
+"example": "House 2 Gemini membuat Mercury penting untuk uang/skill dagang.",
+"anchor": "house"
+},
+{
+"term": "House 3",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Saudara, komunikasi harian, tetangga, perjalanan dekat, belajar dasar",
+"example": "Mars di House 3 bisa membuat bicara cepat/tajam.",
+"anchor": "house"
+},
+{
+"term": "House 4",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Rumah, keluarga, akar, tanah, ayah/ortu dalam sebagian tradisi, akhir perkara",
+"example": "Moon di House 4 menguatkan keterikatan pada rumah.",
+"anchor": "house"
+},
+{
+"term": "House 5",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Anak, kreativitas, hiburan, cinta romantis, kesenangan",
+"example": "Venus di House 5 memberi bakat seni/romantis.",
+"anchor": "house"
+},
+{
+"term": "House 6",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Kerja harian, pelayanan, penyakit, rutinitas, bawahan, beban kecil",
+"example": "Saturn di House 6 menuntut disiplin kesehatan/kerja.",
+"anchor": "house"
+},
+{
+"term": "House 7",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Pasangan, kontrak, relasi satu lawan satu, lawan terbuka",
+"example": "Lord 7 lemah dapat menunjukkan pelajaran dalam relasi.",
+"anchor": "house"
+},
+{
+"term": "House 8",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Hutang, uang pihak lain, krisis, warisan, rasa takut, transformasi",
+"example": "Jupiter di House 8 bisa memberi bantuan melalui sumber daya orang lain.",
+"anchor": "house"
+},
+{
+"term": "House 9",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Ilmu tinggi, agama, guru, hukum, perjalanan jauh, makna hidup",
+"example": "Moon di House 9 bisa membuat batin mencari ilmu/makna.",
+"anchor": "house"
+},
+{
+"term": "House 10",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Karier, reputasi, status, tindakan publik, otoritas",
+"example": "Mars di House 10 memberi dorongan kuat untuk bekerja dan tampil.",
+"anchor": "house"
+},
+{
+"term": "House 11",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Teman, jaringan, harapan, dukungan, kelompok",
+"example": "Venus di House 11 memberi bantuan dari teman/komunitas.",
+"anchor": "house"
+},
+{
+"term": "House 12",
+"symbol": "",
+"category": "House",
+"level": "Umum",
+"definition": "Isolasi, musuh tersembunyi, beban batin, rumah sakit, retreat, hal tak terlihat",
+"example": "Sun di House 12 dapat membuat identitas lebih privat atau bekerja di balik layar.",
+"anchor": "house"
+},
+{
+"term": "Whole Sign House",
+"symbol": "",
+"category": "House System",
+"level": "Klasik",
+"definition": "Sistem rumah di mana satu sign penuh menjadi satu house. Mudah untuk membaca topik dan Lord House.",
+"example": "Contoh: ASC Taurus berarti seluruh Taurus House 1, Gemini House 2, Cancer House 3.",
+"anchor": "house-system"
+},
+{
+"term": "Placidus",
+"symbol": "",
+"category": "House System",
+"level": "Modern",
+"definition": "Sistem rumah populer dalam astrologi modern Barat. Ukuran house bisa berbeda-beda.",
+"example": "Contoh: planet dekat cusp bisa masuk House 8 dalam Placidus meski di Whole Sign berada di House 9.",
+"anchor": "house-system"
+},
+{
+"term": "Regiomontanus",
+"symbol": "",
+"category": "House System",
+"level": "Klasik/Lanjutan",
+"definition": "Sistem rumah yang sering dipakai dalam tradisi horary dan pendekatan klasik tertentu.",
+"example": "Contoh: horary klasik sering memakai Regiomontanus untuk melihat kekuatan house.",
+"anchor": "house-system"
+},
+{
+"term": "Porphyry",
+"symbol": "",
+"category": "House System",
+"level": "Klasik/Teknis",
+"definition": "Sistem yang membagi ruang antara ASC, MC, DESC, dan IC menjadi tiga bagian.",
+"example": "Contoh: Porphyry berguna untuk memahami kekuatan angular, succedent, dan cadent secara teknis.",
+"anchor": "house-system"
+},
+{
+"term": "Equal House",
+"symbol": "",
+"category": "House System",
+"level": "Umum",
+"definition": "Sistem rumah dengan setiap house berukuran 30 derajat dimulai dari ASC.",
+"example": "Contoh: ASC 13° Taurus membuat House 2 mulai 13° Gemini.",
+"anchor": "house-system"
+},
+{
+"term": "Campanus",
+"symbol": "",
+"category": "House System",
+"level": "Tambahan",
+"definition": "Sistem rumah Barat berbasis pembagian ruang; kadang dipakai sebagai alternatif klasik/modern.",
+"example": "Contoh: jika laporan memakai Campanus, jangan campur hasil house-nya dengan Placidus tanpa catatan.",
+"anchor": "house-system"
+},
+{
+"term": "Koch",
+"symbol": "",
+"category": "House System",
+"level": "Tambahan",
+"definition": "Sistem rumah modern yang kadang tersedia di kalkulator Barat.",
+"example": "Contoh: pembacaan psikologis modern kadang membandingkan Koch dengan Placidus.",
+"anchor": "house-system"
+},
+{
+"term": "Ruler / Penguasa Sign",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Planet yang menguasai sebuah sign. Dalam klasik: Aries Mars, Taurus Venus, Gemini Mercury, Cancer Moon, Leo Sun, Virgo Mercury, Libra Venus, Scorpio Mars, Sagittarius Jupiter, Capricorn Saturn, Aquarius Saturn, Pisces Jupiter.",
+"example": "Contoh: Scorpio dikuasai Mars dalam klasik, sehingga House 7 Scorpio dibaca melalui Mars.",
+"anchor": "lord-house"
+},
+{
+"term": "Lord House / Penguasa Rumah",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Planet penguasa sign pada cusp house. Ini kunci membaca topik house.",
+"example": "Contoh: House 2 Gemini → Lord House 2 Mercury; uang dibaca lewat Mercury.",
+"anchor": "lord-house"
+},
+{
+"term": "Lord Ascendant / Lord 1",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Planet penguasa sign ASC. Menjadi significator utama diri dalam pembacaan klasik.",
+"example": "Contoh: ASC Taurus membuat Venus menjadi Lord 1, sehingga kondisi Venus menunjukkan keadaan diri.",
+"anchor": "lord-house"
+},
+{
+"term": "Lord 2",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 2, dipakai untuk membaca uang, harta, makanan, nilai diri, dan sumber daya.",
+"example": "Contoh: Lord 2 di House 10 dapat menunjukkan uang terkait karier/reputasi.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 3",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 3, dipakai untuk saudara, komunikasi harian, belajar dasar, perjalanan dekat.",
+"example": "Contoh: Lord 3 di House 9 menghubungkan komunikasi harian dengan ilmu tinggi/perjalanan jauh.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 4",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 4, dipakai untuk rumah, keluarga, akar, tanah, dan fondasi pribadi.",
+"example": "Contoh: Lord 4 di House 2 dapat mengaitkan keluarga/rumah dengan uang atau harta.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 5",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 5, dipakai untuk anak, kreativitas, romansa, hiburan, dan hasil kreatif.",
+"example": "Contoh: Lord 5 di House 10 bisa menunjukkan kreativitas menjadi bagian dari karier.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 6",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 6, dipakai untuk kerja harian, penyakit, rutinitas, pelayanan, dan beban kecil.",
+"example": "Contoh: Lord 6 di House 1 membuat rutinitas/kerja harian sangat memengaruhi tubuh.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 7",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 7, dipakai untuk pasangan, kontrak, publik, dan lawan terbuka.",
+"example": "Contoh: Lord 7 di House 11 dapat menunjukkan pasangan datang melalui teman/jaringan.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 8",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 8, dipakai untuk hutang, uang pasangan/pihak lain, warisan, krisis, dan rasa takut.",
+"example": "Contoh: Lord 8 di House 2 menghubungkan uang pribadi dengan hutang/sumber daya orang lain.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 9",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 9, dipakai untuk agama, ilmu tinggi, guru, hukum, dan perjalanan jauh.",
+"example": "Contoh: Lord 9 di House 10 dapat menunjukkan karier terkait pendidikan, hukum, agama, atau luar negeri.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 10",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 10, dipakai untuk karier, reputasi, tindakan publik, dan status.",
+"example": "Contoh: Lord 10 retrograde menunjukkan karier perlu revisi, pengulangan, atau proses matang.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 11",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 11, dipakai untuk teman, jaringan, harapan, dukungan, dan kelompok.",
+"example": "Contoh: Lord 11 di House 2 dapat menunjukkan uang dari jaringan/komunitas.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Lord 12",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Penguasa House 12, dipakai untuk isolasi, beban tersembunyi, musuh tersembunyi, dan hal di balik layar.",
+"example": "Contoh: Lord 12 di House 10 bisa menunjukkan pekerjaan di balik layar atau beban terkait reputasi.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Dispositor",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Planet penguasa sign tempat sebuah planet berada. Dispositor menunjukkan siapa yang “menampung” planet itu.",
+"example": "Contoh: Mars di Taurus berada di wilayah Venus, maka Venus adalah dispositor Mars.",
+"anchor": "lord-house"
+},
+{
+"term": "Significator",
+"symbol": "",
+"category": "Lord & Topik",
+"level": "Umum",
+"definition": "Planet/titik yang mewakili orang, topik, atau perkara dalam pembacaan.",
+"example": "Contoh: dalam topik karier, MC, House 10, dan Lord 10 menjadi significator karier.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Essential Dignity / Martabat Esensial",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Klasik",
+"definition": "Kekuatan kualitas planet berdasarkan sign/derajat tempat ia berada: domicile, exaltation, triplicity, term, face.",
+"example": "Contoh: Mars di Capricorn exalted, sehingga tindakan Mars lebih disiplin dan strategis.",
+"anchor": "dignity"
+},
+{
+"term": "Accidental Dignity / Martabat Aksidental",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Klasik",
+"definition": "Kekuatan planet berdasarkan keadaan chart: house, angularitas, gerak, kecepatan, aspek, combust, dan lain-lain.",
+"example": "Contoh: Jupiter di House 10 angular lebih tampil daripada Jupiter di House 12.",
+"anchor": "angular"
+},
+{
+"term": "Domicile / Rulership",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Klasik",
+"definition": "Planet berada di sign yang dikuasainya sehingga bekerja kuat dan alami.",
+"example": "Contoh: Venus di Taurus memiliki domicile, sehingga tema Venus lebih stabil dan nyaman.",
+"anchor": "dignity"
+},
+{
+"term": "Exaltation",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Klasik",
+"definition": "Planet berada di sign tempat ia dimuliakan; kuat tetapi kadang ideal/tinggi.",
+"example": "Contoh: Moon di Taurus exalted, menunjukkan kebutuhan rasa aman bekerja lebih stabil.",
+"anchor": "dignity"
+},
+{
+"term": "Detriment",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Klasik",
+"definition": "Planet berada di sign berlawanan domicile, sehingga caranya bekerja tidak alami atau harus belajar menyesuaikan.",
+"example": "Contoh: Mars di Libra berada di detriment; tindakan harus belajar melalui kompromi/relasi.",
+"anchor": "dignity"
+},
+{
+"term": "Fall",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Klasik",
+"definition": "Planet berada di sign berlawanan exaltation; planet tidak nyaman mengekspresikan sifatnya.",
+"example": "Contoh: Venus di Virgo fall; cinta bisa menjadi praktis tetapi mudah terlalu menganalisis.",
+"anchor": "dignity"
+},
+{
+"term": "Peregrine",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Klasik/Lanjutan",
+"definition": "Planet tidak memiliki martabat utama di posisi itu; seperti pengembara tanpa kuasa khusus.",
+"example": "Contoh: Mercury di Aries bisa peregrine jika tidak mendapat dignity lain; cara pikir aktif tetapi belum tentu punya pijakan kuat.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Debility / Kelemahan Planet",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Klasik",
+"definition": "Kondisi yang melemahkan planet, seperti detriment, fall, cadent, retrograde, combust, atau aspek keras dari malefic.",
+"example": "Contoh: Lord 10 fall dan cadent dapat menunjukkan karier perlu usaha lebih besar.",
+"anchor": "dignity"
+},
+{
+"term": "Triplicity",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Lanjutan",
+"definition": "Martabat berdasarkan unsur dan sekta siang/malam. Ini materi lanjutan setelah domicile/exaltation.",
+"example": "Contoh: planet pada sign Api dapat memiliki dukungan triplicity tertentu tergantung chart siang atau malam.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Term / Bound",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Lanjutan",
+"definition": "Pembagian kecil derajat dalam sign yang memberi kuasa kepada planet tertentu.",
+"example": "Contoh: Mars di 12° Taurus dapat berada dalam term planet tertentu; ini menambah detail penilaian.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Face / Decan",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Lanjutan",
+"definition": "Pembagian sign menjadi tiga bagian 10 derajat. Memberi martabat kecil.",
+"example": "Contoh: Venus di awal Virgo bisa berada pada decan tertentu yang memberi warna tambahan.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Almuten",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Lanjutan",
+"definition": "Planet dengan jumlah martabat terbanyak pada derajat tertentu atau topik tertentu.",
+"example": "Contoh: jika Venus memiliki martabat terbanyak pada derajat ASC, Venus bisa menjadi almuten ASC.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Reception / Penerimaan",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Lanjutan",
+"definition": "Hubungan ketika satu planet berada di wilayah dignity planet lain, sehingga planet tersebut “diterima” oleh penguasanya.",
+"example": "Contoh: Mars di Taurus berada di sign Venus; Venus menjadi pihak yang menerima Mars.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Mutual Reception / Penerimaan Timbal Balik",
+"symbol": "",
+"category": "Dignity Klasik",
+"level": "Lanjutan",
+"definition": "Dua planet saling berada di wilayah kekuasaan masing-masing. Dapat membantu kerja sama antarplanet.",
+"example": "Contoh: Venus di Aries dan Mars di Taurus saling berada di sign satu sama lain; ini mutual reception by domicile.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Angular",
+"symbol": "",
+"category": "Kekuatan House",
+"level": "Klasik",
+"definition": "House 1, 4, 7, dan 10. Planet di sini lebih kuat tampil dan lebih terlihat dalam hidup.",
+"example": "Contoh: Mars di House 10 lebih tampak dalam karier daripada Mars di House 12.",
+"anchor": "angular"
+},
+{
+"term": "Succedent",
+"symbol": "",
+"category": "Kekuatan House",
+"level": "Klasik",
+"definition": "House 2, 5, 8, dan 11. Planet di sini cenderung mempertahankan, menyimpan, atau memberi stabilitas.",
+"example": "Contoh: Jupiter di House 2 dapat mendukung sumber daya jika kondisinya baik.",
+"anchor": "angular"
+},
+{
+"term": "Cadent",
+"symbol": "",
+"category": "Kekuatan House",
+"level": "Klasik",
+"definition": "House 3, 6, 9, dan 12. Planet bekerja lebih tidak langsung, tersembunyi, atau melalui proses belajar/pelayanan.",
+"example": "Contoh: Saturn di House 6 dapat bekerja lewat rutinitas, kesehatan, dan tugas harian.",
+"anchor": "angular"
+},
+{
+"term": "Planet Kuat",
+"symbol": "",
+"category": "Kekuatan House",
+"level": "Umum",
+"definition": "Planet yang mendapat dukungan dignity, angularitas, gerak baik, dan aspek baik.",
+"example": "Contoh: Mars exalted di Capricorn House 10 adalah planet yang kuat untuk tindakan publik.",
+"anchor": "dignity"
+},
+{
+"term": "Planet Lemah",
+"symbol": "",
+"category": "Kekuatan House",
+"level": "Umum",
+"definition": "Planet yang mengalami debility, cadent, retrograde, combust, atau tekanan aspek. Lemah bukan berarti tidak berfungsi, tetapi perlu strategi.",
+"example": "Contoh: Venus fall di Virgo House 12 perlu membaca cinta/nilai diri dengan hati-hati.",
+"anchor": "dignity"
+},
+{
+"term": "Planet Menonjol",
+"symbol": "",
+"category": "Kekuatan House",
+"level": "Umum",
+"definition": "Planet yang sangat terlihat karena dekat angle, banyak aspek, menguasai house penting, atau menjadi fokus chart.",
+"example": "Contoh: Moon dekat ASC membuat kebutuhan emosional terlihat dalam kesan awal.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Direct",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Umum",
+"definition": "Gerak planet tampak maju normal dari sudut pandang Bumi.",
+"example": "Contoh: Mercury direct lebih mudah mengekspresikan komunikasi langsung dibanding Mercury retrograde.",
+"anchor": "retrograde"
+},
+{
+"term": "Retrograde",
+"symbol": "℞",
+"category": "Kondisi Planet",
+"level": "Umum",
+"definition": "Gerak planet tampak mundur. Dalam natal, energi planet lebih internal, reflektif, berulang, atau perlu revisi.",
+"example": "Contoh: Jupiter retrograde sebagai Lord 2 menunjukkan nilai diri/uang perlu pemahaman ulang.",
+"anchor": "retrograde"
+},
+{
+"term": "Station",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Lanjutan",
+"definition": "Planet tampak berhenti sebelum berubah arah direct/retrograde. Sering membuat energi planet sangat kuat/menonjol.",
+"example": "Contoh: Mercury station dapat membuat tema pikiran/komunikasi sangat penting dalam hidup.",
+"anchor": "retrograde"
+},
+{
+"term": "Combust",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Klasik",
+"definition": "Planet terlalu dekat dengan Sun sehingga tertutup sinar Matahari; dalam klasik dianggap melemahkan visibilitas planet.",
+"example": "Contoh: Mercury combust dapat menunjukkan pikiran/komunikasi sangat melekat pada kehendak Sun dan sulit objektif.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Under the Beams",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Klasik",
+"definition": "Planet berada di bawah sinar Sun, belum seterang/terlihat penuh; lebih ringan dari combust.",
+"example": "Contoh: Venus under the beams membuat tema Venus kurang mudah terlihat secara terbuka.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Cazimi",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Klasik/Lanjutan",
+"definition": "Planet sangat dekat dengan jantung Sun. Dalam tradisi klasik sering dianggap mendapat penguatan khusus.",
+"example": "Contoh: Mercury cazimi dapat menunjukkan pikiran sangat fokus/terpusat, tergantung konteks chart.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Fast Motion / Gerak Cepat",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Lanjutan",
+"definition": "Planet bergerak lebih cepat dari kecepatan rata-ratanya. Dapat menunjukkan kelancaran atau percepatan fungsi planet.",
+"example": "Contoh: Mercury cepat dapat menunjukkan pikiran tangkas, tergantung dignity dan aspek.",
+"anchor": "retrograde"
+},
+{
+"term": "Slow Motion / Gerak Lambat",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Lanjutan",
+"definition": "Planet bergerak lebih lambat dari rata-rata. Dapat menunjukkan proses hati-hati, lambat, atau berat.",
+"example": "Contoh: Mars lambat bisa membuat tindakan perlu waktu untuk matang.",
+"anchor": "retrograde"
+},
+{
+"term": "Oriental",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Lanjutan",
+"definition": "Planet terbit sebelum Sun. Dalam klasik memberi warna kondisi tertentu, terutama untuk superior planets.",
+"example": "Contoh: Saturn oriental dapat dibaca berbeda dari Saturn occidental dalam penilaian tradisional.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Occidental",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Lanjutan",
+"definition": "Planet terbenam setelah Sun atau berada dalam kondisi barat relatif terhadap Sun.",
+"example": "Contoh: Jupiter occidental dipertimbangkan dalam penilaian kekuatan planet klasik.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Sect",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Klasik/Lanjutan",
+"definition": "Pembagian chart siang/malam. Menentukan planet mana yang lebih sesuai dengan kondisi chart.",
+"example": "Contoh: Saturn lebih nyaman dalam chart siang; Mars lebih nyaman dalam chart malam.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Day Chart / Chart Siang",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Klasik/Lanjutan",
+"definition": "Chart ketika Sun berada di atas horizon, biasanya House 7–12.",
+"example": "Contoh: kelahiran siang memberi sekta utama pada Sun, Jupiter, dan Saturn.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Night Chart / Chart Malam",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Klasik/Lanjutan",
+"definition": "Chart ketika Sun berada di bawah horizon, biasanya House 1–6.",
+"example": "Contoh: kelahiran malam memberi sekta utama pada Moon, Venus, dan Mars.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Hayz",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Lanjutan",
+"definition": "Kondisi lanjutan ketika planet cocok dengan sekta, posisi, dan gender sign tertentu.",
+"example": "Contoh: planet dalam hayz dianggap bekerja lebih sesuai dengan sifatnya.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Planetary Joy",
+"symbol": "",
+"category": "Kondisi Planet",
+"level": "Lanjutan",
+"definition": "Konsep klasik bahwa planet tertentu “bersukacita” di house tertentu.",
+"example": "Contoh: Saturn joy di House 12; Mars joy di House 6; Moon joy di House 3.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Aspect / Aspek",
+"symbol": "☌",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Hubungan sudut antarplanet/titik. Dipakai untuk melihat koneksi, dukungan, ketegangan, atau penyatuan.",
+"example": "Contoh: Venus trine Jupiter memberi aliran sosial/dukungan; Mars square Moon memberi gesekan emosi-tindakan.",
+"anchor": "aspect"
+},
+{
+"term": "Conjunction",
+"symbol": "☌",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Aspek 0°; dua planet menyatu atau bekerja sangat dekat.",
+"example": "Contoh: Sun conjunction Mercury membuat pikiran dan identitas sangat terhubung.",
+"anchor": "aspect"
+},
+{
+"term": "Sextile",
+"symbol": "⚹",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Aspek 60°; peluang, kerja sama, dan bantuan yang perlu diaktifkan.",
+"example": "Contoh: Mercury sextile Venus memudahkan komunikasi yang halus atau artistik.",
+"anchor": "aspect"
+},
+{
+"term": "Square",
+"symbol": "□",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Aspek 90°; tekanan, konflik, gesekan, dan kebutuhan usaha.",
+"example": "Contoh: Moon square Mars menunjukkan reaksi emosional cepat dan perlu belajar mengelola impuls.",
+"anchor": "aspect"
+},
+{
+"term": "Trine",
+"symbol": "△",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Aspek 120°; aliran mudah, bakat, dukungan alami.",
+"example": "Contoh: Venus trine Jupiter dapat memberi keramahan, keberuntungan sosial, atau kemurahan hati.",
+"anchor": "aspect"
+},
+{
+"term": "Opposition",
+"symbol": "☍",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Aspek 180°; polaritas, tarik-menarik, relasi dua kutub.",
+"example": "Contoh: Sun opposition Moon dapat menunjukkan kebutuhan menyeimbangkan kehendak sadar dan kebutuhan emosional.",
+"anchor": "aspect"
+},
+{
+"term": "Orb",
+"symbol": "",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Jarak toleransi dari aspek exact. Semakin dekat orb, biasanya aspek semakin kuat.",
+"example": "Contoh: Moon trine Jupiter orb 1° lebih kuat daripada orb 8°, tergantung aturan yang dipakai.",
+"anchor": "aspect"
+},
+{
+"term": "Exact Aspect",
+"symbol": "",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Aspek yang tepat pada derajat yang sama dengan sudut aspeknya.",
+"example": "Contoh: Venus 10° Taurus trine Mars 10° Capricorn adalah trine exact.",
+"anchor": "aspect"
+},
+{
+"term": "Applying",
+"symbol": "",
+"category": "Aspek",
+"level": "Klasik",
+"definition": "Planet sedang menuju aspek exact. Dalam klasik sering dianggap lebih aktif/akan terjadi.",
+"example": "Contoh: Moon applying trine Jupiter menunjukkan emosi/peristiwa bergerak menuju dukungan Jupiter.",
+"anchor": "aspect"
+},
+{
+"term": "Separating",
+"symbol": "",
+"category": "Aspek",
+"level": "Klasik",
+"definition": "Planet sudah melewati aspek exact. Dalam klasik sering menunjukkan sesuatu sudah terjadi atau efeknya menurun.",
+"example": "Contoh: Moon separating square Mars dapat menunjukkan konflik emosional yang sudah lewat tetapi masih terasa.",
+"anchor": "aspect"
+},
+{
+"term": "Hard Aspect",
+"symbol": "",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Aspek yang menantang, terutama square dan opposition; conjunction bisa mudah atau keras tergantung planet.",
+"example": "Contoh: Mars square Saturn menunjukkan dorongan bertemu batas/tunda.",
+"anchor": "aspect"
+},
+{
+"term": "Soft Aspect",
+"symbol": "",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Aspek yang cenderung membantu, terutama sextile dan trine.",
+"example": "Contoh: Mercury trine Saturn memudahkan pikiran terstruktur.",
+"anchor": "aspect"
+},
+{
+"term": "No Aspect",
+"symbol": "",
+"category": "Aspek",
+"level": "Umum",
+"definition": "Tidak ada aspek utama antara dua planet dalam orb yang dipakai.",
+"example": "Contoh: jika Lord 2 tidak beraspek ke Lord 10, hubungan uang-karier tidak dibaca dari aspek langsung.",
+"anchor": "aspect"
+},
+{
+"term": "Out-of-sign Aspect",
+"symbol": "",
+"category": "Aspek",
+"level": "Lanjutan",
+"definition": "Aspek berdasarkan derajat yang terjadi meski sign tidak berada dalam relasi aspek tradisional sempurna.",
+"example": "Contoh: 29° Aries dan 1° Virgo bisa dekat 122°, tetapi sign Aries-Virgo bukan trine tradisional.",
+"anchor": "aspect"
+},
+{
+"term": "Translation of Light",
+"symbol": "",
+"category": "Aspek Lanjutan",
+"level": "Lanjutan",
+"definition": "Planet cepat membawa cahaya/aspek dari satu planet ke planet lain. Lebih sering dipakai horary, tetapi istilah klasik penting.",
+"example": "Contoh: Moon separating dari Mars lalu applying ke Jupiter dapat membawa urusan Mars menuju Jupiter.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Collection of Light",
+"symbol": "",
+"category": "Aspek Lanjutan",
+"level": "Lanjutan",
+"definition": "Planet lebih lambat mengumpulkan aspek dari dua planet yang tidak saling berhubungan langsung.",
+"example": "Contoh: Mars dan Venus sama-sama applying ke Jupiter; Jupiter mengumpulkan cahaya keduanya.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Prohibition",
+"symbol": "",
+"category": "Aspek Lanjutan",
+"level": "Lanjutan",
+"definition": "Planet lain menghalangi penyempurnaan aspek dua significator. Umum dalam horary klasik.",
+"example": "Contoh: Moon akan trine Jupiter, tetapi lebih dulu square Saturn; Saturn dapat menjadi penghalang.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Void of Course",
+"symbol": "",
+"category": "Aspek Lanjutan",
+"level": "Lanjutan",
+"definition": "Moon tidak lagi membuat aspek utama sebelum keluar dari sign. Istilah ini lebih sering penting dalam horary/electional.",
+"example": "Contoh: Moon void dapat menunjukkan perkara tidak banyak bergerak, tetapi penilaian natal harus hati-hati.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Psychological Reading / Pembacaan Psikologis",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Cara membaca chart sebagai pola batin, kebutuhan, mekanisme pertahanan, pertumbuhan diri, dan kesadaran.",
+"example": "Contoh: Neptune di House 7 dibaca sebagai kecenderungan idealisasi relasi dan kebutuhan batas emosional.",
+"anchor": "modern-planets"
+},
+{
+"term": "Archetype",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Pola simbolik universal yang diwakili planet atau sign.",
+"example": "Contoh: Mars sebagai archetype pejuang, Venus sebagai archetype penyatu/pecinta.",
+"anchor": "modern-planets"
+},
+{
+"term": "Generational Planet",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Planet lambat seperti Uranus, Neptune, Pluto yang membentuk tema generasi sekaligus bekerja personal jika dekat angle/aspek personal.",
+"example": "Contoh: Pluto satu generasi sama, tetapi Pluto conjunct ASC menjadi sangat personal.",
+"anchor": "modern-planets"
+},
+{
+"term": "Personal Planet",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Sun, Moon, Mercury, Venus, Mars; lebih cepat dan lebih personal dalam karakter sehari-hari.",
+"example": "Contoh: Venus menjelaskan cara menyukai, Mars menjelaskan cara bertindak.",
+"anchor": "planet-sun"
+},
+{
+"term": "Social Planet",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Jupiter dan Saturn; menghubungkan pribadi dengan struktur sosial, hukum, pendidikan, karier, dan tanggung jawab.",
+"example": "Contoh: Saturn menunjukkan pelajaran struktur dan batas dalam masyarakat.",
+"anchor": "planet-sun"
+},
+{
+"term": "Outer Planet",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Uranus, Neptune, Pluto; planet modern yang membawa tema kolektif, krisis, transformasi, spiritualitas, atau perubahan besar.",
+"example": "Contoh: Uranus aspek Sun dapat memberi identitas yang ingin bebas dan berbeda.",
+"anchor": "modern-planets"
+},
+{
+"term": "Element Balance",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Perbandingan unsur Api, Tanah, Udara, Air dalam chart.",
+"example": "Contoh: unsur Tanah sedikit dapat menunjukkan perlu latihan konkret: jadwal, tubuh, uang, keteraturan.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Mode Balance",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Perbandingan Cardinal, Fixed, Mutable dalam chart.",
+"example": "Contoh: mode Fixed dominan membuat tahan lama, tetapi perlu belajar fleksibel.",
+"anchor": "bab-simbol"
+},
+{
+"term": "Stellium",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Kumpulan tiga atau lebih planet dalam satu sign atau house. Menunjukkan konsentrasi tema.",
+"example": "Contoh: stellium House 10 membuat karier/reputasi menjadi fokus besar.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Dominant Planet",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Planet yang sangat menonjol karena posisi, aspek, house, atau pengulangan tema.",
+"example": "Contoh: Mercury dominan dapat membuat hidup banyak bergerak melalui bahasa, data, perdagangan, atau belajar.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Chart Ruler",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Penguasa ASC. Dalam modern sering disebut penguasa chart.",
+"example": "Contoh: ASC Libra membuat Venus menjadi chart ruler; kondisi Venus memberi warna seluruh chart.",
+"anchor": "lord-house"
+},
+{
+"term": "Shadow",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Sisi tidak sadar/tertekan dari simbol planet/sign yang perlu disadari.",
+"example": "Contoh: Mars shadow bisa muncul sebagai marah pasif jika keberanian tidak disalurkan sehat.",
+"anchor": "modern-planets"
+},
+{
+"term": "Wound-Healing Theme",
+"symbol": "",
+"category": "Modern",
+"level": "Modern",
+"definition": "Tema luka dan penyembuhan, sering dikaitkan dengan Chiron.",
+"example": "Contoh: Chiron House 3 bisa menunjukkan luka suara/komunikasi yang kelak menjadi kemampuan mengajar.",
+"anchor": "modern-planets"
+},
+{
+"term": "Bacaan Umum",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Pembacaan keseluruhan chart sebelum masuk topik khusus. Biasanya mulai dari ASC, Lord ASC, Sun, Moon, dan MC.",
+"example": "Contoh: sebelum membaca uang, lihat dulu Lord ASC untuk memahami kondisi pemilik chart.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Bacaan Tematik",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Pembacaan berdasarkan topik house tertentu seperti uang, pasangan, karier, keluarga, atau kesehatan.",
+"example": "Contoh: untuk pasangan baca House 7, Lord 7, planet di House 7, dan aspek ke Lord 7.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Data yang Dibaca",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Bagian hasil yang menjelaskan data teknis apa yang dipakai sebelum interpretasi.",
+"example": "Contoh: topik uang memakai House 2, Lord 2, planet di House 2, dan aspek Lord 2.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Formula Bacaan",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Urutan aturan yang dipakai untuk membaca agar hasil tidak asal tafsir.",
+"example": "Contoh: Topik = House; kualitas = Lord House; arah = house tempat Lord berada; hambatan/bantuan = aspek.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Penilaian Teknis",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Tahap menilai kuat/lemah planet dan hubungan antar data sebelum membuat kalimat interpretasi.",
+"example": "Contoh: Lord 10 di detriment dan cadent dinilai perlu usaha lebih dalam karier.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Interpretasi",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Kalimat makna dari data teknis. Interpretasi harus mengikuti data, bukan imajinasi lepas.",
+"example": "Contoh: Mercury Lord 2 di House 4 dapat diinterpretasi uang berkaitan rumah, keluarga, properti, atau usaha dari rumah.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Kesimpulan Bacaan",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Ringkasan akhir dari data dan interpretasi yang paling penting.",
+"example": "Contoh: “Tema uang kuat melalui komunikasi, tetapi perlu pengelolaan karena Mercury retrograde.”",
+"anchor": "formula-tematik"
+},
+{
+"term": "House Kosong",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "House tanpa planet. Topiknya tetap ada dan dibaca melalui Lord House.",
+"example": "Contoh: House 7 kosong tetap bisa dibaca melalui Lord 7 dan kondisi Venus/Mars sesuai sign cusp.",
+"anchor": "house"
+},
+{
+"term": "Planet di House",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Planet yang berada dalam house memberi isi/pengalaman langsung pada topik house tersebut.",
+"example": "Contoh: Venus di House 5 memberi warna seni, cinta, dan kesenangan pada tema anak/kreativitas.",
+"anchor": "house"
+},
+{
+"term": "Lord House Berada di House Lain",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Menunjukkan topik house pertama mengalir atau berhubungan dengan house tempat lord berada.",
+"example": "Contoh: Lord 2 di House 10 menunjukkan uang mengalir melalui karier/reputasi.",
+"anchor": "lord-house"
+},
+{
+"term": "Tema Dominan Chart",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Tema yang berulang melalui banyak indikator: planet menonjol, house ramai, ruler kuat, aspek, atau angle.",
+"example": "Contoh: banyak planet di House 9 dan Lord 9 kuat membuat ilmu/agama/perjalanan jauh menjadi tema dominan.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Indikator Pendukung",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Data tambahan yang menguatkan tema utama.",
+"example": "Contoh: membaca karier dari Lord 10 lalu didukung Mars di House 10.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Indikator Hambatan",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Data yang menunjukkan tantangan, keterlambatan, konflik, atau kebutuhan koreksi.",
+"example": "Contoh: Lord 2 square Saturn dapat menjadi indikator hambatan uang atau rasa kurang aman.",
+"anchor": "formula-tematik"
+},
+{
+"term": "Konteks Chart",
+"symbol": "",
+"category": "Formula Pembacaan",
+"level": "Umum",
+"definition": "Keseluruhan kondisi chart yang menjaga interpretasi agar tidak mengambil satu simbol saja.",
+"example": "Contoh: Venus fall tidak otomatis buruk jika Venus angular, menerima reception, dan beraspek baik.",
+"anchor": "cara-membaca"
+},
+{
+"term": "Benefic",
+"symbol": "",
+"category": "Planet Klasik",
+"level": "Klasik",
+"definition": "Planet yang cenderung memberi bantuan, kemudahan, pertumbuhan, atau harmoni. Dalam klasik utama: Venus dan Jupiter.",
+"example": "Contoh: Jupiter sebagai benefic di House 10 dapat memberi dukungan reputasi bila kondisinya baik.",
+"anchor": "benefic-malefic"
+},
+{
+"term": "Malefic",
+"symbol": "",
+"category": "Planet Klasik",
+"level": "Klasik",
+"definition": "Planet yang cenderung memberi tantangan, tekanan, pemotongan, atau ujian. Dalam klasik utama: Mars dan Saturn.",
+"example": "Contoh: Saturn sebagai malefic di House 2 dapat menunjukkan pelajaran disiplin uang.",
+"anchor": "benefic-malefic"
+},
+{
+"term": "Luminary",
+"symbol": "",
+"category": "Planet Klasik",
+"level": "Klasik",
+"definition": "Dua cahaya utama: Sun dan Moon.",
+"example": "Contoh: Sun menunjukkan pusat kesadaran, Moon menunjukkan kebutuhan emosional dan tubuh kebiasaan.",
+"anchor": "benefic-malefic"
+},
+{
+"term": "Superior Planet",
+"symbol": "",
+"category": "Planet Klasik",
+"level": "Klasik/Lanjutan",
+"definition": "Mars, Jupiter, Saturn; planet yang orbitnya di luar Bumi dalam model klasik.",
+"example": "Contoh: superior planets penting untuk tindakan besar, pertumbuhan, dan struktur hidup.",
+"anchor": "planet-sun"
+},
+{
+"term": "Inferior Planet",
+"symbol": "",
+"category": "Planet Klasik",
+"level": "Klasik/Lanjutan",
+"definition": "Mercury dan Venus; planet yang selalu relatif dekat Sun dari sudut pandang Bumi.",
+"example": "Contoh: Venus tidak pernah terlalu jauh dari Sun, sehingga kondisi combust/under beams sering diperiksa.",
+"anchor": "planet-sun"
+},
+{
+"term": "Sect Light",
+"symbol": "",
+"category": "Planet Klasik",
+"level": "Lanjutan",
+"definition": "Luminary utama sesuai sekta: Sun untuk chart siang, Moon untuk chart malam.",
+"example": "Contoh: pada chart malam, Moon menjadi cahaya sekta dan perlu diperhatikan kuat.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Aversion",
+"symbol": "",
+"category": "Aspek Lanjutan",
+"level": "Lanjutan",
+"definition": "Kondisi dua sign/planet tidak saling melihat melalui aspek utama tradisional.",
+"example": "Contoh: Aries dan Virgo berada dalam aversion; hubungan antar topik bisa kurang langsung.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Antiscia",
+"symbol": "",
+"category": "Aspek Lanjutan",
+"level": "Lanjutan",
+"definition": "Hubungan cermin derajat terhadap sumbu solstis. Dipakai dalam beberapa tradisi klasik.",
+"example": "Contoh: planet dalam antiscia dapat dianggap punya koneksi tersembunyi.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Contra-antiscia",
+"symbol": "",
+"category": "Aspek Lanjutan",
+"level": "Lanjutan",
+"definition": "Hubungan cermin berlawanan dari antiscia. Ini materi teknis lanjutan.",
+"example": "Contoh: contra-antiscia dapat dipakai sebagai indikator hubungan tersembunyi yang lebih tegang.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Declination",
+"symbol": "",
+"category": "Data Chart Lanjutan",
+"level": "Lanjutan",
+"definition": "Jarak planet utara/selatan dari ekuator langit. Tidak selalu dipakai di pembacaan dasar.",
+"example": "Contoh: declination dipakai untuk parallel/contra-parallel pada teknik tertentu.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Parallel",
+"symbol": "",
+"category": "Aspek Lanjutan",
+"level": "Lanjutan",
+"definition": "Hubungan declination yang mirip conjunction.",
+"example": "Contoh: Sun parallel Venus dapat menambah kedekatan tema identitas dan relasi.",
+"anchor": "advanced-classic"
+},
+{
+"term": "Contra-parallel",
+"symbol": "",
+"category": "Aspek Lanjutan",
+"level": "Lanjutan",
+"definition": "Hubungan declination yang mirip opposition.",
+"example": "Contoh: Mars contra-parallel Saturn dapat dibaca seperti ketegangan tindakan dan batas.",
+"anchor": "advanced-classic"
+}
+];
+
+function escapeHTML(str){return String(str??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function jumpLearn(anchor){showPage('learn');learnBackBar.classList.remove('show');setTimeout(()=>document.getElementById(anchor||'glosarium')?.scrollIntoView({behavior:'smooth',block:'start'}),80)}
+function setGlossCat(cat){window.glossaryCategory=cat;renderGlossary(document.getElementById('glossSearch')?.value||'',cat)}
+function renderGlossary(q='',cat=window.glossaryCategory||'Semua'){
+  window.glossaryCategory=cat;
+  const query=String(q||'').trim().toLowerCase();
+  const cats=['Semua',...Array.from(new Set(GLOSSARY.map(x=>x.category))).sort((a,b)=>a.localeCompare(b,'id'))];
+  const filtered=GLOSSARY.filter(item=>{
+    const hay=[item.term,item.symbol,item.category,item.level,item.definition,item.example].join(' ').toLowerCase();
+    return (cat==='Semua'||item.category===cat) && (!query||hay.includes(query));
+  });
+  const statByCat=cats.filter(c=>c!=='Semua').map(c=>`<span class="pill blue">${escapeHTML(c)}: ${GLOSSARY.filter(x=>x.category===c).length}</span>`).join('');
+  glossaryContent.innerHTML=`
+    <div class="callout good"><b>Glosarium Pembacaan Astrologi</b><br>Ini adalah kamus cepat istilah yang sering muncul saat membaca natal chart. Setiap istilah diberi definisi singkat dan contoh agar mudah dipelajari. Materi Vedic/Jyotish tidak dimasukkan karena aplikasi ini fokus pada astrologi Barat Klasik dan Modern.</div>
+    <div class="grid two">
+      <div><label>Cari istilah</label><input id="glossSearch" value="${escapeHTML(q)}" oninput="renderGlossary(this.value,window.glossaryCategory||'Semua')" placeholder="Cari: Lord House, fall, orb, ASC, Uranus..."></div>
+      <div><label>Ringkasan jumlah istilah</label><div class="status ok"><b>${GLOSSARY.length}</b> istilah tersedia · <b>${filtered.length}</b> tampil sesuai filter.</div></div>
+    </div>
+    <div class="section-divider"></div>
+    <div class="pill-row">${cats.map(c=>`<button class="btn ${c===cat?'primary':'secondary'}" onclick="setGlossCat('${escapeHTML(c)}')">${escapeHTML(c)}</button>`).join('')}</div>
+    <div class="section-divider"></div>
+    <div class="pill-row">${statByCat}</div>
+    <div class="section-divider"></div>
+    ${filtered.length?filtered.map(item=>`
+      <div class="topic-box lesson-section">
+        <div class="pill-row" style="margin-bottom:8px">
+          <span class="pill"><span class="symbol">${escapeHTML(item.symbol||'•')}</span><b>${escapeHTML(item.term)}</b></span>
+          <span class="tag">${escapeHTML(item.category)}</span>
+          <span class="tag ${String(item.level).toLowerCase().includes('lanjutan')?'adv':String(item.level).toLowerCase().includes('modern')?'modern':String(item.level).toLowerCase().includes('klasik')?'classic':''}">${escapeHTML(item.level||'Umum')}</span>
+        </div>
+        <p>${escapeHTML(item.definition)}</p>
+        <p><b>Contoh:</b> ${escapeHTML(item.example)}</p>
+        <button class="btn link" onclick="jumpLearn('${escapeHTML(item.anchor||'glosarium')}')">Baca materi terkait di Belajar Dasar →</button>
+      </div>`).join(''):`<div class="status warn">Tidak ada istilah yang cocok dengan pencarian/filter ini.</div>`}
+  `;
+}
+document.querySelectorAll('#topNav button').forEach(btn=>btn.addEventListener('click',()=>showPage(btn.dataset.page)));
+initInputs();renderLearn();renderGlossary();validateAndRender();renderExamplePreview();
+</script>
+</body>
+</html>
